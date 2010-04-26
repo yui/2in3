@@ -1,6 +1,8 @@
 YUI.add('yui2-editor', function(Y) {
     if (Y.YUI2) {
-        var YAHOO = Y.YUI2;
+        var YAHOO    = Y.YUI2,
+            window   = Y.config.win,
+            document = Y.config.doc;
     }
     /*
 Copyright (c) 2007, Yahoo! Inc. All rights reserved.

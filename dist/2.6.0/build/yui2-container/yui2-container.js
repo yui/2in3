@@ -1,7 +1,9 @@
-YUI.add('yui2-containercore', function() {}, '2.8.0' ,{"requires": ["yui2-yahoo", "yui2-dom", "yui2-event"]});
+YUI.add('yui2-containercore', function() {}, '3.1.0' ,{"requires": ["yui2-yahoo", "yui2-dom", "yui2-event"]});
 YUI.add('yui2-container', function(Y) {
     if (Y.YUI2) {
-        var YAHOO = Y.YUI2;
+        var YAHOO    = Y.YUI2,
+            window   = Y.config.win,
+            document = Y.config.doc;
     }
     /*
 Copyright (c) 2008, Yahoo! Inc. All rights reserved.

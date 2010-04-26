@@ -1,12 +1,14 @@
-YUI.add('yui2-yahoo', function() {}, '2.8.0' ,{});
-YUI.add('yui2-dom', function() {}, '2.8.0' ,{"requires": ["yui2-yahoo"]});
-YUI.add('yui2-event', function() {}, '2.8.0' ,{"requires": ["yui2-yahoo"]});
-YUI.add('yui2-get', function() {}, '2.8.0' ,{"requires": ["yui2-yahoo"]});
-YUI.add('yui2-yuiloader', function() {}, '2.8.0' ,{"supersedes": ["yui2-yahoo", "yui2-get"]});
-YUI.add('yui2-yahoo-dom-event', function() {}, '2.8.0' ,{"rollup": 3, "supersedes": ["yui2-yahoo", "yui2-event", "yui2-dom"]});
+YUI.add('yui2-yahoo', function() {}, '3.1.0' ,{});
+YUI.add('yui2-dom', function() {}, '3.1.0' ,{"requires": ["yui2-yahoo"]});
+YUI.add('yui2-event', function() {}, '3.1.0' ,{"requires": ["yui2-yahoo"]});
+YUI.add('yui2-get', function() {}, '3.1.0' ,{"requires": ["yui2-yahoo"]});
+YUI.add('yui2-yuiloader', function() {}, '3.1.0' ,{"supersedes": ["yui2-yahoo", "yui2-get"]});
+YUI.add('yui2-yahoo-dom-event', function() {}, '3.1.0' ,{"rollup": 3, "supersedes": ["yui2-yahoo", "yui2-event", "yui2-dom"]});
 YUI.add('yui2-yuiloader-dom-event', function(Y) {
     if (Y.YUI2) {
-        var YAHOO = Y.YUI2;
+        var YAHOO    = Y.YUI2,
+            window   = Y.config.win,
+            document = Y.config.doc;
     }
     /*
 Copyright (c) 2009, Yahoo! Inc. All rights reserved.

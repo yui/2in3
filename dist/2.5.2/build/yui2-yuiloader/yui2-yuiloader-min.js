@@ -1,8 +1,10 @@
-YUI.add('yui2-yahoo', function() {}, '2.8.0' ,{});
-YUI.add('yui2-get', function() {}, '2.8.0' ,{"requires": ["yui2-yahoo"]});
+YUI.add('yui2-yahoo', function() {}, '3.1.0' ,{});
+YUI.add('yui2-get', function() {}, '3.1.0' ,{"requires": ["yui2-yahoo"]});
 YUI.add('yui2-yuiloader', function(Y) {
     if (Y.YUI2) {
-        var YAHOO = Y.YUI2;
+        var YAHOO    = Y.YUI2,
+            window   = Y.config.win,
+            document = Y.config.doc;
     }
     /*
 Copyright (c) 2008, Yahoo! Inc. All rights reserved.
