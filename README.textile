@@ -37,6 +37,14 @@ YUI({
 }).use('yui2-yahoo', 'yui2-event', function (Y) {
     //
 };
-
 </pre>
 
+h2. Additional Notes
+
+* YUI 3 will try to pull the 2.8.0 version of YUI 2 by default.
+  The 'yui2' config can be passed to the instance to load one
+  of the other versions.
+* The public release of 2.8.0 is called 2.8.0r4 because of deployment
+  issues at the time it was released.  Accepting the default YUI 2
+  option for 2.8.0 will in fact be pulling the same content that is
+  in the 2.8.0r4 release.
