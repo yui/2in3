@@ -1,9 +1,7 @@
-YUI.add('yui2-simpleeditor', function() {}, '3.1.0' ,{"requires": ["yui2-yahoo", "yui2-dom", "yui2-skin-sam-simpleeditor", "yui2-event", "yui2-element"], "optional": ["yui2-containercore", "yui2-dragdrop", "yui2-skin-sam-button", "yui2-skin-sam-menu", "yui2-menu", "yui2-button", "yui2-animation"]});
+YUI.add('yui2-simpleeditor', function(Y) { Y.use('yui2-editor'); }, '3.1.1' ,{"requires": ["yui2-yahoo", "yui2-dom", "yui2-skin-sam-simpleeditor", "yui2-event", "yui2-element"], "optional": ["yui2-containercore", "yui2-dragdrop", "yui2-skin-sam-button", "yui2-skin-sam-menu", "yui2-menu", "yui2-button", "yui2-animation"]});
 YUI.add('yui2-editor', function(Y) {
     if (Y.YUI2) {
-        var YAHOO    = Y.YUI2,
-            window   = Y.config.win,
-            document = Y.config.doc;
+        var YAHOO    = Y.YUI2;
     }
     /*
 Copyright (c) 2008, Yahoo! Inc. All rights reserved.

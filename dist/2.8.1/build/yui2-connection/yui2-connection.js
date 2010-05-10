@@ -1,4 +1,4 @@
-YUI.add('yui2-connectioncore', function() {}, '3.1.0' ,{"requires": ["yui2-yahoo", "yui2-event"]});
+YUI.add('yui2-connectioncore', function(Y) { Y.use('yui2-connection'); }, '3.1.1' ,{"requires": ["yui2-yahoo", "yui2-event"]});
 YUI.add('yui2-connection', function(Y) {
     if (Y.YUI2) {
         var YAHOO    = Y.YUI2;

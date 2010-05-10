@@ -1,6 +1,6 @@
-YUI.add('yui2-yahoo', function() {}, '3.1.0' ,{});
-YUI.add('yui2-event', function() {}, '3.1.0' ,{"requires": ["yui2-yahoo"]});
-YUI.add('yui2-dom', function() {}, '3.1.0' ,{"requires": ["yui2-yahoo"]});
+YUI.add('yui2-yahoo', function(Y) { Y.use('yui2-yahoo-dom-event'); }, '3.1.1' ,{});
+YUI.add('yui2-event', function(Y) { Y.use('yui2-yahoo-dom-event'); }, '3.1.1' ,{"requires": ["yui2-yahoo"]});
+YUI.add('yui2-dom', function(Y) { Y.use('yui2-yahoo-dom-event'); }, '3.1.1' ,{"requires": ["yui2-yahoo"]});
 YUI.add('yui2-yahoo-dom-event', function(Y) {
     if (Y.YUI2) {
         var YAHOO    = Y.YUI2;

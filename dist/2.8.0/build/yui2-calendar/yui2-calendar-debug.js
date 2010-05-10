@@ -1,9 +1,7 @@
-YUI.add('yui2-datemath', function() {}, '3.1.0' ,{"requires": ["yui2-yahoo"]});
+YUI.add('yui2-datemath', function(Y) { Y.use('yui2-calendar'); }, '3.1.1' ,{"requires": ["yui2-yahoo"]});
 YUI.add('yui2-calendar', function(Y) {
     if (Y.YUI2) {
-        var YAHOO    = Y.YUI2,
-            window   = Y.config.win,
-            document = Y.config.doc;
+        var YAHOO    = Y.YUI2;
     }
     /*
 Copyright (c) 2009, Yahoo! Inc. All rights reserved.

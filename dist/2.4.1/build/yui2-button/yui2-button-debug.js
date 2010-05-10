@@ -1,8 +1,6 @@
 YUI.add('yui2-button', function(Y) {
     if (Y.YUI2) {
-        var YAHOO    = Y.YUI2,
-            window   = Y.config.win,
-            document = Y.config.doc;
+        var YAHOO    = Y.YUI2;
     }
     /*
 Copyright (c) 2007, Yahoo! Inc. All rights reserved.

@@ -1,5 +1,5 @@
-YUI.add('yui2-yahoo', function() {}, '3.1.0' ,{});
-YUI.add('yui2-get', function() {}, '3.1.0' ,{"requires": ["yui2-yahoo"]});
+YUI.add('yui2-yahoo', function(Y) { Y.use('yui2-yuiloader'); }, '3.1.1' ,{});
+YUI.add('yui2-get', function(Y) { Y.use('yui2-yuiloader'); }, '3.1.1' ,{"requires": ["yui2-yahoo"]});
 YUI.add('yui2-yuiloader', function(Y) {
     if (Y.YUI2) {
         var YAHOO    = Y.YUI2;

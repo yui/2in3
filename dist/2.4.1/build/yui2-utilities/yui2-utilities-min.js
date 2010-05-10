@@ -1,16 +1,14 @@
-YUI.add('yui2-yahoo', function() {}, '3.1.0' ,{});
-YUI.add('yui2-event', function() {}, '3.1.0' ,{"requires": ["yui2-yahoo"]});
-YUI.add('yui2-dragdrop', function() {}, '3.1.0' ,{"requires": ["yui2-yahoo", "yui2-dom", "yui2-event"]});
-YUI.add('yui2-animation', function() {}, '3.1.0' ,{"requires": ["yui2-yahoo", "yui2-dom", "yui2-event"]});
-YUI.add('yui2-dom', function() {}, '3.1.0' ,{"requires": ["yui2-yahoo"]});
-YUI.add('yui2-connection', function() {}, '3.1.0' ,{"requires": ["yui2-yahoo", "yui2-event"]});
-YUI.add('yui2-element', function() {}, '3.1.0' ,{"requires": ["yui2-yahoo", "yui2-dom", "yui2-event"]});
-YUI.add('yui2-yahoo-dom-event', function() {}, '3.1.0' ,{"rollup": 3, "supersedes": ["yui2-yahoo", "yui2-event", "yui2-dom"]});
+YUI.add('yui2-yahoo', function(Y) { Y.use('yui2-utilities'); }, '3.1.1' ,{});
+YUI.add('yui2-event', function(Y) { Y.use('yui2-utilities'); }, '3.1.1' ,{"requires": ["yui2-yahoo"]});
+YUI.add('yui2-dragdrop', function(Y) { Y.use('yui2-utilities'); }, '3.1.1' ,{"requires": ["yui2-yahoo", "yui2-dom", "yui2-event"]});
+YUI.add('yui2-animation', function(Y) { Y.use('yui2-utilities'); }, '3.1.1' ,{"requires": ["yui2-yahoo", "yui2-dom", "yui2-event"]});
+YUI.add('yui2-dom', function(Y) { Y.use('yui2-utilities'); }, '3.1.1' ,{"requires": ["yui2-yahoo"]});
+YUI.add('yui2-connection', function(Y) { Y.use('yui2-utilities'); }, '3.1.1' ,{"requires": ["yui2-yahoo", "yui2-event"]});
+YUI.add('yui2-element', function(Y) { Y.use('yui2-utilities'); }, '3.1.1' ,{"requires": ["yui2-yahoo", "yui2-dom", "yui2-event"]});
+YUI.add('yui2-yahoo-dom-event', function(Y) { Y.use('yui2-utilities'); }, '3.1.1' ,{"rollup": 3, "supersedes": ["yui2-yahoo", "yui2-event", "yui2-dom"]});
 YUI.add('yui2-utilities', function(Y) {
     if (Y.YUI2) {
-        var YAHOO    = Y.YUI2,
-            window   = Y.config.win,
-            document = Y.config.doc;
+        var YAHOO    = Y.YUI2;
     }
     /*
 Copyright (c) 2007, Yahoo! Inc. All rights reserved.
