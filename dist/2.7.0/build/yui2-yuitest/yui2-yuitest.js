@@ -1,7 +1,5 @@
 YUI.add('yui2-yuitest', function(Y) {
-    if (Y.YUI2) {
-        var YAHOO    = Y.YUI2;
-    }
+    var YAHOO    = Y.YUI2;
     /*
 Copyright (c) 2009, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
@@ -3373,11 +3371,4 @@ YAHOO.tool.TestReporter.prototype = {
 
 YAHOO.register("yuitest", YAHOO.tool.TestRunner, {version: "2.7.0", build: "1796"});
 
-    if (!Y.YUI2) {
-        Y.YUI2 = YAHOO;
-    }
-    if (!YAHOO._activ && YAHOO.util.Event) {
-        YAHOO._activ = true;
-        YAHOO.util.Event._load();
-    }
 }, '2.7.0' ,{"requires": ["yui2-skin-sam-yuitest", "yui2-yahoo", "yui2-dom", "yui2-event", "yui2-skin-sam-logger", "yui2-logger"]});

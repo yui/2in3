@@ -1,7 +1,5 @@
 YUI.add('yui2-logger', function(Y) {
-    if (Y.YUI2) {
-        var YAHOO    = Y.YUI2;
-    }
+    var YAHOO    = Y.YUI2;
     /*
 Copyright (c) 2007, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
@@ -68,11 +66,4 @@ oEntry.source+": "+
 oEntry.msg;console.log(output);}};YAHOO.widget.Logger._onWindowError=function(sMsg,sUrl,sLine){try{YAHOO.widget.Logger.log(sMsg+' ('+sUrl+', line '+sLine+')',"window");if(YAHOO.widget.Logger._origOnWindowError){YAHOO.widget.Logger._origOnWindowError();}}
 catch(e){return false;}};if(window.onerror){YAHOO.widget.Logger._origOnWindowError=window.onerror;}
 window.onerror=YAHOO.widget.Logger._onWindowError;YAHOO.widget.Logger.log("Logger initialized");YAHOO.register("logger",YAHOO.widget.Logger,{version:"2.2.2",build:"204"});
-    if (!Y.YUI2) {
-        Y.YUI2 = YAHOO;
-    }
-    if (!YAHOO._activ && YAHOO.util.Event) {
-        YAHOO._activ = true;
-        YAHOO.util.Event._load();
-    }
 }, '2.2.2' ,{"requires": ["yui2-yahoo", "yui2-dom", "yui2-event", "yui2-skin-sam-logger"], "optional": ["yui2-dragdrop"]});

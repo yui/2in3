@@ -1,7 +1,5 @@
 YUI.add('yui2-profilerviewer', function(Y) {
-    if (Y.YUI2) {
-        var YAHOO    = Y.YUI2;
-    }
+    var YAHOO    = Y.YUI2;
     /*
 Copyright (c) 2008, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
@@ -1193,11 +1191,4 @@ version: 2.6.0
 })();
 YAHOO.register("profilerviewer", YAHOO.widget.ProfilerViewer, {version: "2.6.0", build: "1321"});
 
-    if (!Y.YUI2) {
-        Y.YUI2 = YAHOO;
-    }
-    if (!YAHOO._activ && YAHOO.util.Event) {
-        YAHOO._activ = true;
-        YAHOO.util.Event._load();
-    }
 }, '2.6.0' ,{"requires": ["yui2-skin-sam-profilerviewer", "yui2-yuiloader", "yui2-dom", "yui2-event", "yui2-element", "yui2-profiler"]});

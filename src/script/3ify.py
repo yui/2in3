@@ -2,6 +2,9 @@
 # -*- coding: utf-8 -*-
 # vim: et sw=4 ts=4
 
+# Usage: 3ify.py [yui2 version to wrap] [yui3 module version] [wrapper version number]
+# Ex: 3ify.py 2.8.1 3.2.0 4
+
 try:
    import json as simplejson
 except:
@@ -36,9 +39,13 @@ class Threeify(object):
         YUI2_DIR        = 'lib/' + VERSION + '/build/'
         LOCAL_CSS_DIR   = 'lib/localcss/' + VERSION + '/build/'
 
-        TEMPLATE_DIR    = 'template'
-        TEMPLATE_FILE   = 'yui3mod.js'
-        SUPERSEDED_FILE = 'superseded.js'
+        TEMPLATE_DIR         = 'template'
+        TEMPLATE_FILE        = 'yui3mod.js'
+        TEMPLATE_FILE_DOM    = 'yui3mod_dom.js'
+        TEMPLATE_FILE_EVENT  = 'yui3mod_event.js'
+        TEMPLATE_FILE_YAHOO  = 'yui3mod_yahoo.js'
+        TEMPLATE_FILE_ROLLUP = 'yui3mod_rollup.js'
+        SUPERSEDED_FILE      = 'superseded.js'
 
         DEST_DIR        = 'build_tmp.cdn'
         dest_path      = os.path.abspath(DEST_DIR)
@@ -133,7 +140,21 @@ class Threeify(object):
         out.close()
 
         template = readFile(template_path, TEMPLATE_FILE)
+        template_dom = readFile(template_path, TEMPLATE_FILE_DOM)
+        template_event = readFile(template_path, TEMPLATE_FILE_EVENT)
+        template_yahoo = readFile(template_path, TEMPLATE_FILE_YAHOO)
+        template_rollup = readFile(template_path, TEMPLATE_FILE_ROLLUP)
         superseded = readFile(template_path, SUPERSEDED_FILE)
+
+        template_map = {
+            'yui2-dom': template_dom,
+            'yui2-event': template_event,
+            'yui2-yahoo': template_yahoo,
+            'yui2-yuiloader': template_yahoo,
+            'yui2-yahoo-dom-event': template_rollup,
+            'yui2-utilities': template_rollup,
+            'yui2-yuiloader-dom-event': template_rollup,
+        }
 
         for name, mod in src.iteritems():
             type = 'js'
@@ -219,7 +240,12 @@ class Threeify(object):
                         supcontent += supresult
 
                 if type == 'js':
-                    result = template
+
+                    if name in template_map:
+                        result = template_map[name]
+                    else:
+                        result = template
+
                     result = result.replace(TOKENS['name'], name)
                     result = result.replace(TOKENS['content'], content)
                     result = result.replace(TOKENS['superseded'], supcontent)

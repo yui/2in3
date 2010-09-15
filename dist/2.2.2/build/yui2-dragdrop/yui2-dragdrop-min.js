@@ -1,7 +1,5 @@
 YUI.add('yui2-dragdrop', function(Y) {
-    if (Y.YUI2) {
-        var YAHOO    = Y.YUI2;
-    }
+    var YAHOO    = Y.YUI2;
     /*
 Copyright (c) 2007, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
@@ -96,11 +94,4 @@ if(isNaN(br)){br=0;}
 if(isNaN(bb)){bb=0;}
 if(isNaN(bl)){bl=0;}
 var newWidth=Math.max(0,el.offsetWidth-br-bl);var newHeight=Math.max(0,el.offsetHeight-bt-bb);DOM.setStyle(dragEl,"width",newWidth+"px");DOM.setStyle(dragEl,"height",newHeight+"px");}},b4MouseDown:function(e){this.setStartPosition();var x=YAHOO.util.Event.getPageX(e);var y=YAHOO.util.Event.getPageY(e);this.autoOffset(x,y);this.setDragElPos(x,y);},b4StartDrag:function(x,y){this.showFrame(x,y);},b4EndDrag:function(e){YAHOO.util.Dom.setStyle(this.getDragEl(),"visibility","hidden");},endDrag:function(e){var DOM=YAHOO.util.Dom;var lel=this.getEl();var del=this.getDragEl();DOM.setStyle(del,"visibility","");DOM.setStyle(lel,"visibility","hidden");YAHOO.util.DDM.moveToEl(lel,del);DOM.setStyle(del,"visibility","hidden");DOM.setStyle(lel,"visibility","");},toString:function(){return("DDProxy "+this.id);}});YAHOO.util.DDTarget=function(id,sGroup,config){if(id){this.initTarget(id,sGroup,config);}};YAHOO.extend(YAHOO.util.DDTarget,YAHOO.util.DragDrop,{toString:function(){return("DDTarget "+this.id);}});YAHOO.register("dragdrop",YAHOO.util.DragDropMgr,{version:"2.2.2",build:"204"});
-    if (!Y.YUI2) {
-        Y.YUI2 = YAHOO;
-    }
-    if (!YAHOO._activ && YAHOO.util.Event) {
-        YAHOO._activ = true;
-        YAHOO.util.Event._load();
-    }
 }, '2.2.2' ,{"requires": ["yui2-yahoo", "yui2-dom", "yui2-event"]});

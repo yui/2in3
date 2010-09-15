@@ -1,7 +1,5 @@
 YUI.add('yui2-colorpicker', function(Y) {
-    if (Y.YUI2) {
-        var YAHOO    = Y.YUI2;
-    }
+    var YAHOO    = Y.YUI2;
     /*
 Copyright (c) 2008, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
@@ -1758,11 +1756,4 @@ YAHOO.util.Color = function() {
 })();
 YAHOO.register("colorpicker", YAHOO.widget.ColorPicker, {version: "2.6.0", build: "1321"});
 
-    if (!Y.YUI2) {
-        Y.YUI2 = YAHOO;
-    }
-    if (!YAHOO._activ && YAHOO.util.Event) {
-        YAHOO._activ = true;
-        YAHOO.util.Event._load();
-    }
 }, '2.6.0' ,{"requires": ["yui2-yahoo", "yui2-dom", "yui2-skin-sam-slider", "yui2-event", "yui2-dragdrop", "yui2-slider", "yui2-element", "yui2-skin-sam-colorpicker"], "optional": ["yui2-animation"]});

@@ -1,7 +1,5 @@
 YUI.add('yui2-connection', function(Y) {
-    if (Y.YUI2) {
-        var YAHOO    = Y.YUI2;
-    }
+    var YAHOO    = Y.YUI2;
     /*
 Copyright (c) 2007, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
@@ -111,11 +109,4 @@ else{return false;}},isCallInProgress:function(o)
 {if(o.conn){return o.conn.readyState!==4&&o.conn.readyState!==0;}
 else{return false;}},releaseObject:function(o)
 {o.conn=null;o=null;}};YAHOO.register("connection",YAHOO.util.Connect,{version:"2.2.2",build:"204"});
-    if (!Y.YUI2) {
-        Y.YUI2 = YAHOO;
-    }
-    if (!YAHOO._activ && YAHOO.util.Event) {
-        YAHOO._activ = true;
-        YAHOO.util.Event._load();
-    }
 }, '2.2.2' ,{"requires": ["yui2-yahoo", "yui2-event"]});

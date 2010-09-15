@@ -1,7 +1,4 @@
 YUI.add('yui2-yahoo', function(Y) {
-    if (Y.YUI2) {
-        var YAHOO    = Y.YUI2;
-    }
     /*
 Copyright (c) 2008, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
@@ -989,11 +986,5 @@ YAHOO.extend = L.extend;
 })();
 YAHOO.register("yahoo", YAHOO, {version: "2.5.2", build: "1076"});
 
-    if (!Y.YUI2) {
-        Y.YUI2 = YAHOO;
-    }
-    if (!YAHOO._activ && YAHOO.util.Event) {
-        YAHOO._activ = true;
-        YAHOO.util.Event._load();
-    }
+    Y.YUI2 = YAHOO;
 }, '2.5.2' ,{});

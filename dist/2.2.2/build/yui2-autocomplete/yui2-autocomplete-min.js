@@ -1,7 +1,5 @@
 YUI.add('yui2-autocomplete', function(Y) {
-    if (Y.YUI2) {
-        var YAHOO    = Y.YUI2;
-    }
+    var YAHOO    = Y.YUI2;
     /*
 Copyright (c) 2007, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
@@ -186,11 +184,4 @@ if(YAHOO.lang.isString(aDataset[0])){var sKeyIndex=(this.queryMatchCase)?encodeU
 else{for(i=aData.length-1;i>=0;i--){if(YAHOO.lang.isString(aData[i])){aResults.unshift([aData[i]]);}
 else if(YAHOO.lang.isArray(aData[i])){aResults.unshift(aData[i]);}}}
 this.getResultsEvent.fire(this,oParent,sQuery,aResults);oCallbackFn(sQuery,aResults,oParent);};YAHOO.register("autocomplete",YAHOO.widget.AutoComplete,{version:"2.2.2",build:"204"});
-    if (!Y.YUI2) {
-        Y.YUI2 = YAHOO;
-    }
-    if (!YAHOO._activ && YAHOO.util.Event) {
-        YAHOO._activ = true;
-        YAHOO.util.Event._load();
-    }
 }, '2.2.2' ,{"requires": ["yui2-yahoo", "yui2-dom", "yui2-event", "yui2-skin-sam-autocomplete"], "optional": ["yui2-animation", "yui2-connection"]});

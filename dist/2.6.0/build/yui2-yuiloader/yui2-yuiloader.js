@@ -1,9 +1,6 @@
 YUI.add('yui2-yahoo', function(Y) { Y.use('yui2-yuiloader'); }, '3.1.1' ,{});
 YUI.add('yui2-get', function(Y) { Y.use('yui2-yuiloader'); }, '3.1.1' ,{"requires": ["yui2-yahoo"]});
 YUI.add('yui2-yuiloader', function(Y) {
-    if (Y.YUI2) {
-        var YAHOO    = Y.YUI2;
-    }
     /*
 Copyright (c) 2008, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
@@ -3682,11 +3679,5 @@ throw new Error("You must supply an onSuccess handler for your sandbox");
 
 })();
 
-    if (!Y.YUI2) {
-        Y.YUI2 = YAHOO;
-    }
-    if (!YAHOO._activ && YAHOO.util.Event) {
-        YAHOO._activ = true;
-        YAHOO.util.Event._load();
-    }
+    Y.YUI2 = YAHOO;
 }, '2.6.0' ,{"supersedes": ["yui2-yahoo", "yui2-get"]});

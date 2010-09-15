@@ -1,7 +1,5 @@
 YUI.add('yui2-autocomplete', function(Y) {
-    if (Y.YUI2) {
-        var YAHOO    = Y.YUI2;
-    }
+    var YAHOO    = Y.YUI2;
     /*
 Copyright (c) 2009, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
@@ -2911,11 +2909,4 @@ YAHOO.widget.AutoComplete._cloneObject = function(o) {
 
 YAHOO.register("autocomplete", YAHOO.widget.AutoComplete, {version: "2.7.0", build: "1796"});
 
-    if (!Y.YUI2) {
-        Y.YUI2 = YAHOO;
-    }
-    if (!YAHOO._activ && YAHOO.util.Event) {
-        YAHOO._activ = true;
-        YAHOO.util.Event._load();
-    }
 }, '2.7.0' ,{"requires": ["yui2-yahoo", "yui2-dom", "yui2-event", "yui2-skin-sam-autocomplete", "yui2-datasource"], "optional": ["yui2-animation", "yui2-connection"]});

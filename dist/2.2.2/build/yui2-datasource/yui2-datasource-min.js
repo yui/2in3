@@ -1,7 +1,5 @@
 YUI.add('yui2-datasource', function(Y) {
-    if (Y.YUI2) {
-        var YAHOO    = Y.YUI2;
-    }
+    var YAHOO    = Y.YUI2;
     /*
 Copyright (c) 2007, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
@@ -70,11 +68,4 @@ oResult[key]=data;}
 oParsedResponse.unshift(oResult);}
 return oParsedResponse;}
 else{return null;}};YAHOO.register("datasource",YAHOO.util.DataSource,{version:"2.2.2",build:"204"});
-    if (!Y.YUI2) {
-        Y.YUI2 = YAHOO;
-    }
-    if (!YAHOO._activ && YAHOO.util.Event) {
-        YAHOO._activ = true;
-        YAHOO.util.Event._load();
-    }
 }, '2.2.2' ,{"requires": ["yui2-yahoo", "yui2-event"], "optional": ["yui2-connection"]});

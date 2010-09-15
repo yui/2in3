@@ -1,7 +1,5 @@
 YUI.add('yui2-datatable', function(Y) {
-    if (Y.YUI2) {
-        var YAHOO    = Y.YUI2;
-    }
+    var YAHOO    = Y.YUI2;
     /*
 Copyright (c) 2007, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
@@ -271,11 +269,4 @@ else{return null;}};YAHOO.widget.RecordSet.prototype.replace=function(data){if(d
 else{return null;}};YAHOO.widget.RecordSet.prototype.sort=function(fnSort){return this._records.sort(fnSort);};YAHOO.widget.RecordSet.prototype.deleteRecord=function(i,range){if(!YAHOO.lang.isNumber(range)){range=1;}
 if(!YAHOO.lang.isNumber(i)){this._records.splice(i,range);this._length=this._length-range;}};YAHOO.widget.RecordSet.prototype.reset=function(){this._records=[];this._length=0;};YAHOO.widget.Record=function(oLiteral){if(oLiteral&&(oLiteral.constructor==Object)){for(var sKey in oLiteral){this[sKey]=oLiteral[sKey];}
 this.yuiRecordId="yui-dtrec"+YAHOO.widget.Record._nCount;YAHOO.widget.Record._nCount++;}};YAHOO.widget.Record._nCount=0;YAHOO.widget.Record.prototype.yuiRecordId=null;YAHOO.register("datatable",YAHOO.widget.DataTable,{version:"2.2.2",build:"204"});
-    if (!Y.YUI2) {
-        Y.YUI2 = YAHOO;
-    }
-    if (!YAHOO._activ && YAHOO.util.Event) {
-        YAHOO._activ = true;
-        YAHOO.util.Event._load();
-    }
 }, '2.2.2' ,{"requires": ["yui2-yahoo", "yui2-dom", "yui2-event", "yui2-skin-sam-datatable", "yui2-element", "yui2-datasource"], "optional": ["yui2-skin-sam-calendar", "yui2-calendar", "yui2-dragdrop"]});

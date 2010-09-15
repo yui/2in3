@@ -1,7 +1,5 @@
 YUI.add('yui2-imagecropper', function(Y) {
-    if (Y.YUI2) {
-        var YAHOO    = Y.YUI2;
-    }
+    var YAHOO    = Y.YUI2;
     /*
 Copyright (c) 2010, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
@@ -910,11 +908,4 @@ var Dom = YAHOO.util.Dom,
 
 YAHOO.register("imagecropper", YAHOO.widget.ImageCropper, {version: "2.8.1", build: "19"});
 
-    if (!Y.YUI2) {
-        Y.YUI2 = YAHOO;
-    }
-    if (!YAHOO._activ && YAHOO.util.Event) {
-        YAHOO._activ = true;
-        YAHOO.util.Event._load();
-    }
 }, '2.8.1' ,{"requires": ["yui2-yahoo", "yui2-dom", "yui2-event", "yui2-dragdrop", "yui2-element", "yui2-skin-sam-resize", "yui2-resize", "yui2-skin-sam-imagecropper"]});

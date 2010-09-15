@@ -1,7 +1,5 @@
 YUI.add('yui2-treeview', function(Y) {
-    if (Y.YUI2) {
-        var YAHOO    = Y.YUI2;
-    }
+    var YAHOO    = Y.YUI2;
     /*
 Copyright (c) 2007, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
@@ -72,11 +70,4 @@ if(this.hasIcon){sb[sb.length]='<td';sb[sb.length]=' id="'+this.getToggleElId()+
 sb[sb.length]='><div class="ygtvspacer"></div></td>';}
 sb[sb.length]='<td';sb[sb.length]=' id="'+this.contentElId+'"';sb[sb.length]=' class="'+this.contentStyle+'"';sb[sb.length]=(this.nowrap)?' nowrap="nowrap" ':'';sb[sb.length]=' >';sb[sb.length]=this.html;sb[sb.length]='</td>';sb[sb.length]='</tr>';sb[sb.length]='</table>';return sb.join("");},toString:function(){return"HTMLNode ("+this.index+")";}});YAHOO.widget.MenuNode=function(oData,oParent,expanded){if(oData){this.init(oData,oParent,expanded);this.setUpLabel(oData);}
 this.multiExpand=false;};YAHOO.extend(YAHOO.widget.MenuNode,YAHOO.widget.TextNode,{toString:function(){return"MenuNode ("+this.index+") "+this.label;}});YAHOO.widget.TVAnim=function(){return{FADE_IN:"TVFadeIn",FADE_OUT:"TVFadeOut",getAnim:function(type,el,callback){if(YAHOO.widget[type]){return new YAHOO.widget[type](el,callback);}else{return null;}},isValid:function(type){return(YAHOO.widget[type]);}};}();YAHOO.widget.TVFadeIn=function(el,callback){this.el=el;this.callback=callback;};YAHOO.widget.TVFadeIn.prototype={animate:function(){var tvanim=this;var s=this.el.style;s.opacity=0.1;s.filter="alpha(opacity=10)";s.display="";var dur=0.4;var a=new YAHOO.util.Anim(this.el,{opacity:{from:0.1,to:1,unit:""}},dur);a.onComplete.subscribe(function(){tvanim.onComplete();});a.animate();},onComplete:function(){this.callback();},toString:function(){return"TVFadeIn";}};YAHOO.widget.TVFadeOut=function(el,callback){this.el=el;this.callback=callback;};YAHOO.widget.TVFadeOut.prototype={animate:function(){var tvanim=this;var dur=0.4;var a=new YAHOO.util.Anim(this.el,{opacity:{from:1,to:0.1,unit:""}},dur);a.onComplete.subscribe(function(){tvanim.onComplete();});a.animate();},onComplete:function(){var s=this.el.style;s.display="none";s.filter="alpha(opacity=100)";this.callback();},toString:function(){return"TVFadeOut";}};YAHOO.register("treeview",YAHOO.widget.TreeView,{version:"2.2.2",build:"204"});
-    if (!Y.YUI2) {
-        Y.YUI2 = YAHOO;
-    }
-    if (!YAHOO._activ && YAHOO.util.Event) {
-        YAHOO._activ = true;
-        YAHOO.util.Event._load();
-    }
 }, '2.2.2' ,{"requires": ["yui2-skin-sam-treeview", "yui2-yahoo", "yui2-event"]});

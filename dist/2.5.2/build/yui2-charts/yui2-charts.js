@@ -1,7 +1,5 @@
 YUI.add('yui2-charts', function(Y) {
-    if (Y.YUI2) {
-        var YAHOO    = Y.YUI2;
-    }
+    var YAHOO    = Y.YUI2;
     /*
 Copyright (c) 2008, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
@@ -2051,11 +2049,4 @@ YAHOO.lang.extend(YAHOO.widget.PieSeries, YAHOO.widget.Series,
 
 YAHOO.register("charts", YAHOO.widget.Chart, {version: "2.5.2", build: "1076"});
 
-    if (!Y.YUI2) {
-        Y.YUI2 = YAHOO;
-    }
-    if (!YAHOO._activ && YAHOO.util.Event) {
-        YAHOO._activ = true;
-        YAHOO.util.Event._load();
-    }
 }, '2.5.2' ,{"requires": ["yui2-yahoo", "yui2-dom", "yui2-event", "yui2-element", "yui2-json", "yui2-datasource"]});

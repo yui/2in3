@@ -1,1 +1,1 @@
-YUI.add('{ /* NAME */ }', function() {}, '3.1.0' ,{ /* DATA */ });
+YUI.add('{ /* NAME */ }', function(Y) { Y.use('{ /* MODULE */ }'); }, '{ /* VERSION */ }' ,{ /* DATA */ });

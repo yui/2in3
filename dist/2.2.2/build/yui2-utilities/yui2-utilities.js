@@ -7,9 +7,6 @@ YUI.add('yui2-connection', function(Y) { Y.use('yui2-utilities'); }, '3.1.1' ,{"
 YUI.add('yui2-element', function(Y) { Y.use('yui2-utilities'); }, '3.1.1' ,{"requires": ["yui2-yahoo", "yui2-dom", "yui2-event"]});
 YUI.add('yui2-yahoo-dom-event', function(Y) { Y.use('yui2-utilities'); }, '3.1.1' ,{"rollup": 3, "supersedes": ["yui2-yahoo", "yui2-event", "yui2-dom"]});
 YUI.add('yui2-utilities', function(Y) {
-    if (Y.YUI2) {
-        var YAHOO    = Y.YUI2;
-    }
     /*
 Copyright (c) 2007, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
@@ -443,11 +440,15 @@ if(Dom.get(el)){isReady=true;_initHTMLElement.call(this,attr);_initContent.call(
 YAHOO.util.Event.onAvailable(attr.element,function(){if(!isReady){_initHTMLElement.call(this,attr);}
 this.fireEvent('available',{type:'available',target:attr.element});},this,true);YAHOO.util.Event.onContentReady(attr.element,function(){if(!isReady){_initContent.call(this,attr);}
 this.fireEvent('contentReady',{type:'contentReady',target:attr.element});},this,true);};var _initHTMLElement=function(attr){this.setAttributeConfig('element',{value:Dom.get(attr.element),readOnly:true});};var _initContent=function(attr){this.initAttributes(attr);this.setAttributes(attr,true);this.fireQueue();};var _registerHTMLAttr=function(key,map){var el=this.get('element');map=map||{};map.name=key;map.method=map.method||function(value){el[key]=value;};map.value=map.value||el[key];this._configs[key]=new YAHOO.util.Attribute(map,this);};YAHOO.augment(YAHOO.util.Element,AttributeProvider);})();YAHOO.register("element",YAHOO.util.Element,{version:"2.2.2",build:"204"});
-    if (!Y.YUI2) {
-        Y.YUI2 = YAHOO;
-    }
-    if (!YAHOO._activ && YAHOO.util.Event) {
-        YAHOO._activ = true;
-        YAHOO.util.Event._load();
+    Y.YUI2 = YAHOO;
+    YAHOO.util.Event.generateId = function(el) {
+        if (!el.id) {
+            el.id = Y.guid();
+        }
+        return el.id;
+    };
+    YAHOO.util.Event._load();
+    if (YAHOO.env._id_counter < 1e+6) {
+        YAHOO.env._id_counter =  Y.Env._yidx * 1e+6;
     }
 }, '2.2.2' ,{"rollup": 6, "supersedes": ["yui2-yahoo", "yui2-event", "yui2-dragdrop", "yui2-animation", "yui2-dom", "yui2-connection", "yui2-element", "yui2-yahoo-dom-event"]});

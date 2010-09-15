@@ -1,7 +1,5 @@
 YUI.add('yui2-button', function(Y) {
-    if (Y.YUI2) {
-        var YAHOO    = Y.YUI2;
-    }
+    var YAHOO    = Y.YUI2;
     /*
 Copyright (c) 2007, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
@@ -133,11 +131,4 @@ while(i--);}}},getButton:function(p_nIndex){if(Lang.isNumber(p_nIndex)){return t
 else{var nButtons=this.getCount();for(var i=0;i<nButtons;i++){oButton=this._buttons[i];if(!oButton.get("disabled")){oButton.focus();break;}}}},check:function(p_nIndex){var oButton=this.getButton(p_nIndex);if(oButton){oButton.set("checked",true);}},destroy:function(){var nButtons=this._buttons.length,oElement=this.get("element"),oParentNode=oElement.parentNode;if(nButtons>0){var i=this._buttons.length-1;do{this._buttons[i].destroy();}
 while(i--);}
 Event.purgeElement(oElement);oParentNode.removeChild(oElement);},toString:function(){return("ButtonGroup "+this.get("id"));}});})();YAHOO.register("button",YAHOO.widget.Button,{version:"2.2.2",build:"204"});
-    if (!Y.YUI2) {
-        Y.YUI2 = YAHOO;
-    }
-    if (!YAHOO._activ && YAHOO.util.Event) {
-        YAHOO._activ = true;
-        YAHOO.util.Event._load();
-    }
 }, '2.2.2' ,{"requires": ["yui2-yahoo", "yui2-dom", "yui2-event", "yui2-skin-sam-button", "yui2-element"], "optional": ["yui2-containercore", "yui2-skin-sam-menu", "yui2-menu"]});

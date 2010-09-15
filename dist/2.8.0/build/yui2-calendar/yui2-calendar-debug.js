@@ -1,8 +1,6 @@
 YUI.add('yui2-datemath', function(Y) { Y.use('yui2-calendar'); }, '3.1.1' ,{"requires": ["yui2-yahoo"]});
 YUI.add('yui2-calendar', function(Y) {
-    if (Y.YUI2) {
-        var YAHOO    = Y.YUI2;
-    }
+    var YAHOO    = Y.YUI2;
     /*
 Copyright (c) 2009, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
@@ -7328,11 +7326,4 @@ YAHOO.widget.CalendarNavigator.prototype = {
 };
 YAHOO.register("calendar", YAHOO.widget.Calendar, {version: "2.8.0r4", build: "2446"});
 
-    if (!Y.YUI2) {
-        Y.YUI2 = YAHOO;
-    }
-    if (!YAHOO._activ && YAHOO.util.Event) {
-        YAHOO._activ = true;
-        YAHOO.util.Event._load();
-    }
 }, '2.8.0' ,{"requires": ["yui2-yahoo", "yui2-dom", "yui2-event", "yui2-skin-sam-calendar"], "supersedes": ["yui2-datemath"]});

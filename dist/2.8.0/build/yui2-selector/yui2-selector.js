@@ -1,7 +1,5 @@
 YUI.add('yui2-selector', function(Y) {
-    if (Y.YUI2) {
-        var YAHOO    = Y.YUI2;
-    }
+    var YAHOO    = Y.YUI2;
     /*
 Copyright (c) 2009, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
@@ -647,11 +645,4 @@ if (YAHOO.env.ua.ie && YAHOO.env.ua.ie < 8) { // rewrite class for IE < 8
 })();
 YAHOO.register("selector", YAHOO.util.Selector, {version: "2.8.0r4", build: "2446"});
 
-    if (!Y.YUI2) {
-        Y.YUI2 = YAHOO;
-    }
-    if (!YAHOO._activ && YAHOO.util.Event) {
-        YAHOO._activ = true;
-        YAHOO.util.Event._load();
-    }
 }, '2.8.0' ,{"requires": ["yui2-yahoo", "yui2-dom"]});

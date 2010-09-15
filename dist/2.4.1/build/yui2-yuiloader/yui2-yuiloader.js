@@ -1,7 +1,4 @@
 YUI.add('yui2-yuiloader', function(Y) {
-    if (Y.YUI2) {
-        var YAHOO    = Y.YUI2;
-    }
     /*
 Copyright (c) 2007, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
@@ -3124,11 +3121,5 @@ throw new Error("You must supply an onSuccess handler for your sandbox");
 
 })();
 
-    if (!Y.YUI2) {
-        Y.YUI2 = YAHOO;
-    }
-    if (!YAHOO._activ && YAHOO.util.Event) {
-        YAHOO._activ = true;
-        YAHOO.util.Event._load();
-    }
+    Y.YUI2 = YAHOO;
 }, '2.4.1' ,{});

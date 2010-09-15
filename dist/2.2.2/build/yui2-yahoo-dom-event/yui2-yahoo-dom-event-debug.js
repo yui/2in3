@@ -2,9 +2,6 @@ YUI.add('yui2-yahoo', function(Y) { Y.use('yui2-yahoo-dom-event'); }, '3.1.1' ,{
 YUI.add('yui2-event', function(Y) { Y.use('yui2-yahoo-dom-event'); }, '3.1.1' ,{"requires": ["yui2-yahoo"]});
 YUI.add('yui2-dom', function(Y) { Y.use('yui2-yahoo-dom-event'); }, '3.1.1' ,{"requires": ["yui2-yahoo"]});
 YUI.add('yui2-yahoo-dom-event', function(Y) {
-    if (Y.YUI2) {
-        var YAHOO    = Y.YUI2;
-    }
     /*
 Copyright (c) 2007, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
@@ -154,11 +151,15 @@ this.enable=function(){if(!this.enabled){YAHOO.util.Event.addListener(attachTo,e
 this.enabled=true;};this.disable=function(){if(this.enabled){YAHOO.util.Event.removeListener(attachTo,event,handleKeyPress);this.disabledEvent.fire(keyData);}
 this.enabled=false;};this.toString=function(){return"KeyListener ["+keyData.keys+"] "+attachTo.tagName+
 (attachTo.id?"["+attachTo.id+"]":"");};};YAHOO.util.KeyListener.KEYDOWN="keydown";YAHOO.util.KeyListener.KEYUP="keyup";YAHOO.register("event",YAHOO.util.Event,{version:"2.2.2",build:"204"});
-    if (!Y.YUI2) {
-        Y.YUI2 = YAHOO;
-    }
-    if (!YAHOO._activ && YAHOO.util.Event) {
-        YAHOO._activ = true;
-        YAHOO.util.Event._load();
+    Y.YUI2 = YAHOO;
+    YAHOO.util.Event.generateId = function(el) {
+        if (!el.id) {
+            el.id = Y.guid();
+        }
+        return el.id;
+    };
+    YAHOO.util.Event._load();
+    if (YAHOO.env._id_counter < 1e+6) {
+        YAHOO.env._id_counter =  Y.Env._yidx * 1e+6;
     }
 }, '2.2.2' ,{"rollup": 3, "supersedes": ["yui2-yahoo", "yui2-event", "yui2-dom"]});

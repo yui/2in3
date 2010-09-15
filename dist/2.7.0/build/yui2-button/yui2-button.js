@@ -1,7 +1,5 @@
 YUI.add('yui2-button', function(Y) {
-    if (Y.YUI2) {
-        var YAHOO    = Y.YUI2;
-    }
+    var YAHOO    = Y.YUI2;
     /*
 Copyright (c) 2009, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
@@ -4752,11 +4750,4 @@ version: 2.7.0
 })();
 YAHOO.register("button", YAHOO.widget.Button, {version: "2.7.0", build: "1796"});
 
-    if (!Y.YUI2) {
-        Y.YUI2 = YAHOO;
-    }
-    if (!YAHOO._activ && YAHOO.util.Event) {
-        YAHOO._activ = true;
-        YAHOO.util.Event._load();
-    }
 }, '2.7.0' ,{"requires": ["yui2-yahoo", "yui2-dom", "yui2-event", "yui2-skin-sam-button", "yui2-element"], "optional": ["yui2-containercore", "yui2-skin-sam-menu", "yui2-menu"]});

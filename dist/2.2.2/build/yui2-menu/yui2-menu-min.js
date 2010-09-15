@@ -1,7 +1,5 @@
 YUI.add('yui2-menu', function(Y) {
-    if (Y.YUI2) {
-        var YAHOO    = Y.YUI2;
-    }
+    var YAHOO    = Y.YUI2;
     /*
 Copyright (c) 2007, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
@@ -282,11 +280,4 @@ return sReturnVal;},initDefaultConfig:function(){YAHOO.widget.MenuBar.superclass
 YAHOO.widget.MenuBarItem.superclass.init.call(this,p_oObject);var oConfig=this.cfg;if(p_oConfig){oConfig.applyConfig(p_oConfig,true);}
 oConfig.fireQueue();},CSS_CLASS_NAME:"yuimenubaritem",toString:function(){var sReturnVal="MenuBarItem";if(this.cfg&&this.cfg.getProperty("text")){sReturnVal+=(": "+this.cfg.getProperty("text"));}
 return sReturnVal;}});YAHOO.register("menu",YAHOO.widget.Menu,{version:"2.2.2",build:"204"});
-    if (!Y.YUI2) {
-        Y.YUI2 = YAHOO;
-    }
-    if (!YAHOO._activ && YAHOO.util.Event) {
-        YAHOO._activ = true;
-        YAHOO.util.Event._load();
-    }
 }, '2.2.2' ,{"requires": ["yui2-yahoo", "yui2-dom", "yui2-event", "yui2-containercore", "yui2-skin-sam-menu"]});

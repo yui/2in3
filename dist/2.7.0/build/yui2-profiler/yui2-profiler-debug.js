@@ -1,7 +1,5 @@
 YUI.add('yui2-profiler', function(Y) {
-    if (Y.YUI2) {
-        var YAHOO    = Y.YUI2;
-    }
+    var YAHOO    = Y.YUI2;
     /*
 Copyright (c) 2009, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
@@ -383,11 +381,4 @@ YAHOO.tool.Profiler = {
 };
 YAHOO.register("profiler", YAHOO.tool.Profiler, {version: "2.7.0", build: "1796"});
 
-    if (!Y.YUI2) {
-        Y.YUI2 = YAHOO;
-    }
-    if (!YAHOO._activ && YAHOO.util.Event) {
-        YAHOO._activ = true;
-        YAHOO.util.Event._load();
-    }
 }, '2.7.0' ,{"requires": ["yui2-yahoo"]});

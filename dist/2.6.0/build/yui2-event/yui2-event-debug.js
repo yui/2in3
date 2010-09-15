@@ -1,7 +1,5 @@
 YUI.add('yui2-event', function(Y) {
-    if (Y.YUI2) {
-        var YAHOO    = Y.YUI2;
-    }
+    var YAHOO    = Y.YUI2;
     /*
 Copyright (c) 2008, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
@@ -2590,11 +2588,11 @@ YAHOO.util.KeyListener.KEY = {
 };
 YAHOO.register("event", YAHOO.util.Event, {version: "2.6.0", build: "1321"});
 
-    if (!Y.YUI2) {
-        Y.YUI2 = YAHOO;
-    }
-    if (!YAHOO._activ && YAHOO.util.Event) {
-        YAHOO._activ = true;
-        YAHOO.util.Event._load();
-    }
+    YAHOO.util.Event.generateId = function(el) {
+        if (!el.id) {
+            el.id = Y.guid();
+        }
+        return el.id;
+    };
+    YAHOO.util.Event._load();
 }, '2.6.0' ,{"requires": ["yui2-yahoo"]});

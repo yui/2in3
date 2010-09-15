@@ -1,7 +1,5 @@
 YUI.add('yui2-tabview', function(Y) {
-    if (Y.YUI2) {
-        var YAHOO    = Y.YUI2;
-    }
+    var YAHOO    = Y.YUI2;
     /*
 Copyright (c) 2007, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
@@ -37,11 +35,4 @@ this.replaceChild(value,current);}}});this.setAttributeConfig('content',{value:a
 a.appendChild(labelEl);return el;};var _getlabelEl=function(){return this.getElementsByTagName(this.LABEL_TAGNAME)[0];};var _createlabelEl=function(){var el=document.createElement(this.LABEL_TAGNAME);return el;};var _setLabel=function(label){var el=this.get('labelEl');el.innerHTML=label;};var _getLabel=function(){var label,el=this.get('labelEl');if(!el){return undefined;}
 return el.innerHTML;};var _dataConnect=function(){if(!YAHOO.util.Connect){return false;}
 Dom.addClass(this.get('contentEl').parentNode,this.LOADING_CLASSNAME);this.dataConnection=YAHOO.util.Connect.asyncRequest(this.get('loadMethod'),this.get('dataSrc'),{success:function(o){this.loadHandler.success.call(this,o);this.set('dataLoaded',true);this.dataConnection=null;Dom.removeClass(this.get('contentEl').parentNode,this.LOADING_CLASSNAME);},failure:function(o){this.loadHandler.failure.call(this,o);this.dataConnection=null;Dom.removeClass(this.get('contentEl').parentNode,this.LOADING_CLASSNAME);},scope:this,timeout:this.get('dataTimeout')});};YAHOO.widget.Tab=Tab;})();YAHOO.register("tabview",YAHOO.widget.TabView,{version:"2.2.2",build:"204"});
-    if (!Y.YUI2) {
-        Y.YUI2 = YAHOO;
-    }
-    if (!YAHOO._activ && YAHOO.util.Event) {
-        YAHOO._activ = true;
-        YAHOO.util.Event._load();
-    }
 }, '2.2.2' ,{"requires": ["yui2-yahoo", "yui2-dom", "yui2-event", "yui2-skin-sam-tabview", "yui2-element"], "optional": ["yui2-connection"]});

@@ -1,7 +1,5 @@
 YUI.add('yui2-dom', function(Y) {
-    if (Y.YUI2) {
-        var YAHOO    = Y.YUI2;
-    }
+    var YAHOO    = Y.YUI2;
     /*
 Copyright (c) 2008, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
@@ -1269,11 +1267,7 @@ YAHOO.util.Point.prototype = new YAHOO.util.Region();
 
 YAHOO.register("dom", YAHOO.util.Dom, {version: "2.5.2", build: "1076"});
 
-    if (!Y.YUI2) {
-        Y.YUI2 = YAHOO;
-    }
-    if (!YAHOO._activ && YAHOO.util.Event) {
-        YAHOO._activ = true;
-        YAHOO.util.Event._load();
+    if (YAHOO.env._id_counter < 1e+6) {
+        YAHOO.env._id_counter =  Y.Env._yidx * 1e+6;
     }
 }, '2.5.2' ,{"requires": ["yui2-yahoo"]});

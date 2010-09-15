@@ -1,15 +1,4 @@
 { /* SUPERSEDED */ }YUI.add('{ /* NAME */ }', function(Y) {
-    if (Y.YUI2) {
-        var YAHOO    = Y.YUI2,
-            window   = Y.config.win,
-            document = Y.config.doc;
-    }
+    var YAHOO    = Y.YUI2;
     { /* SOURCE */ }
-    if (!Y.YUI2) {
-        Y.YUI2 = YAHOO;
-    }
-    if (!YAHOO._activ && YAHOO.util.Event) {
-        YAHOO._activ = true;
-        YAHOO.util.Event._load();
-    }
 }, '{ /* VERSION */ }' ,{ /* DATA */ });

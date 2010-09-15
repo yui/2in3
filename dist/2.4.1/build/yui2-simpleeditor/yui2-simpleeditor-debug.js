@@ -1,7 +1,5 @@
 YUI.add('yui2-simpleeditor', function(Y) {
-    if (Y.YUI2) {
-        var YAHOO    = Y.YUI2;
-    }
+    var YAHOO    = Y.YUI2;
     /*
 Copyright (c) 2007, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
@@ -5941,11 +5939,4 @@ var Dom = YAHOO.util.Dom,
 })();
 YAHOO.register("simpleeditor", YAHOO.widget.SimpleEditor, {version: "2.4.1", build: "742"});
 
-    if (!Y.YUI2) {
-        Y.YUI2 = YAHOO;
-    }
-    if (!YAHOO._activ && YAHOO.util.Event) {
-        YAHOO._activ = true;
-        YAHOO.util.Event._load();
-    }
 }, '2.4.1' ,{"requires": ["yui2-yahoo", "yui2-dom", "yui2-skin-sam-simpleeditor", "yui2-event", "yui2-element"], "optional": ["yui2-containercore", "yui2-dragdrop", "yui2-skin-sam-button", "yui2-skin-sam-menu", "yui2-menu", "yui2-button", "yui2-animation"]});
