@@ -1,6 +1,6 @@
 {
     "name": "yui3-2in3",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "YUI 2in3 Source",
     "author": "Dav Glass <davglass@gmail.com>",
     "bugs": { "web" : "http://yuilibrary.com/projects/yui3/" },
@@ -13,7 +13,7 @@
     },
     "main": "./2in3.js",
     "dependencies": {
-        "yui3": ">=0.5.4"
+        "yui3": ">=0.5.8"
     },
     "licenses":[
         {
