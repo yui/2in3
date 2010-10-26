@@ -4,7 +4,7 @@ YUI.add('yui2-swfdetect', function(Y) {
 Copyright (c) 2010, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
 http://developer.yahoo.com/yui/license.html
-version: 2.8.2
+version: 2.8.2r1
 */
 /**
  * Utility for Flash version detection
@@ -92,6 +92,6 @@ YAHOO.util.SWFDetect = {
 		}	
 	};
 })();
-YAHOO.register("swfdetect", YAHOO.util.SWFDetect, {version: "2.8.2", build: "6"});
+YAHOO.register("swfdetect", YAHOO.util.SWFDetect, {version: "2.8.2r1", build: "8"});
 
 }, '2.8.2' ,{"requires": ["yui2-yahoo"]});

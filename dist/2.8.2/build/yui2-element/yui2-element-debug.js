@@ -4,7 +4,7 @@ YUI.add('yui2-element', function(Y) {
 Copyright (c) 2010, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
 http://developer.yahoo.com/yui/license.html
-version: 2.8.2
+version: 2.8.2r1
 */
 /**
  * Provides Attribute configurations.
@@ -1105,6 +1105,6 @@ YAHOO.augment(Element, AttributeProvider);
 YAHOO.util.Element = Element;
 })();
 
-YAHOO.register("element", YAHOO.util.Element, {version: "2.8.2", build: "6"});
+YAHOO.register("element", YAHOO.util.Element, {version: "2.8.2r1", build: "8"});
 
 }, '2.8.2' ,{"requires": ["yui2-yahoo", "yui2-dom", "yui2-event"], "optional": ["yui2-event-mouseenter", "yui2-event-delegate"]});

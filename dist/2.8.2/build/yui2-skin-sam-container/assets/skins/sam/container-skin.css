@@ -2,7 +2,7 @@
 Copyright (c) 2010, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
 http://developer.yahoo.com/yui/license.html
-version: 2.8.2
+version: 2.8.2r1
 */
 /* Panel modality mask styles */
 .yui-skin-sam .mask {
@@ -62,7 +62,7 @@ version: 2.8.2
     *line-height: 1.9; /* For IE */
     font-weight: bold;
     color: #000;
-    background: url(http://yui.yahooapis.com/2.8.2/build/assets/skins/sam/sprite.png) repeat-x 0 -200px;
+    background: url(http://yui.yahooapis.com/2.8.2r1/build/assets/skins/sam/sprite.png) repeat-x 0 -200px;
 }
 
 .yui-skin-sam .yui-panel .bd {
@@ -85,7 +85,7 @@ version: 2.8.2
     right: 6px;
     width: 25px;
     height: 15px;
-    background: url(http://yui.yahooapis.com/2.8.2/build/assets/skins/sam/sprite.png) no-repeat 0 -300px;
+    background: url(http://yui.yahooapis.com/2.8.2r1/build/assets/skins/sam/sprite.png) no-repeat 0 -300px;
     cursor:pointer;
 }
 
@@ -179,7 +179,7 @@ version: 2.8.2
 
 /* SimpleDialog icon styles */
 .yui-skin-sam .yui-simple-dialog .bd .yui-icon {
-    background: url(http://yui.yahooapis.com/2.8.2/build/assets/skins/sam/sprite.png) no-repeat 0 0;
+    background: url(http://yui.yahooapis.com/2.8.2r1/build/assets/skins/sam/sprite.png) no-repeat 0 0;
     width: 16px;
     height: 16px;
     margin-right: 10px;

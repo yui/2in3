@@ -4,7 +4,7 @@ YUI.add('yui2-paginator', function(Y) {
 Copyright (c) 2010, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
 http://developer.yahoo.com/yui/license.html
-version: 2.8.2
+version: 2.8.2r1
 */
 (function () {
 /**
@@ -2392,6 +2392,6 @@ Paginator.ui.RowsPerPageDropdown.prototype = {
 };
 
 })();
-YAHOO.register("paginator", YAHOO.widget.Paginator, {version: "2.8.2", build: "6"});
+YAHOO.register("paginator", YAHOO.widget.Paginator, {version: "2.8.2r1", build: "8"});
 
 }, '2.8.2' ,{"requires": ["yui2-yahoo", "yui2-dom", "yui2-event", "yui2-element", "yui2-skin-sam-paginator"]});

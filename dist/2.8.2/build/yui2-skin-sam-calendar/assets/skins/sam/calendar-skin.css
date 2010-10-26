@@ -2,7 +2,7 @@
 Copyright (c) 2010, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
 http://developer.yahoo.com/yui/license.html
-version: 2.8.2
+version: 2.8.2r1
 */
 /**
  * SAM
@@ -42,7 +42,7 @@ version: 2.8.2
 
 /* TITLE BAR */
 .yui-skin-sam .yui-calcontainer .title {
-	background:url(http://yui.yahooapis.com/2.8.2/build/assets/skins/sam/sprite.png) repeat-x 0 0;
+	background:url(http://yui.yahooapis.com/2.8.2r1/build/assets/skins/sam/sprite.png) repeat-x 0 0;
 	border-bottom:1px solid #cccccc;
 	font:100% sans-serif;
 	color:#000;
@@ -65,7 +65,7 @@ version: 2.8.2
 
 /* CLOSE BUTTON */
 .yui-skin-sam .yui-calcontainer .calclose {
-	background:url(http://yui.yahooapis.com/2.8.2/build/assets/skins/sam/sprite.png) no-repeat 0 -300px;
+	background:url(http://yui.yahooapis.com/2.8.2r1/build/assets/skins/sam/sprite.png) no-repeat 0 -300px;
 	width:25px;
 	height:15px;
 	top:.4em;
@@ -104,7 +104,7 @@ version: 2.8.2
 
 /* NAVBAR LEFT ARROW */
 .yui-skin-sam .yui-calendar .calnavleft {
-	background:url(http://yui.yahooapis.com/2.8.2/build/assets/skins/sam/sprite.png) no-repeat 0 -450px;
+	background:url(http://yui.yahooapis.com/2.8.2r1/build/assets/skins/sam/sprite.png) no-repeat 0 -450px;
 	width:25px;
 	height:15px;
 	top:0;
@@ -116,7 +116,7 @@ version: 2.8.2
 
 /* NAVBAR RIGHT ARROW */
 .yui-skin-sam .yui-calendar .calnavright {
-	background:url(http://yui.yahooapis.com/2.8.2/build/assets/skins/sam/sprite.png) no-repeat 0 -500px;
+	background:url(http://yui.yahooapis.com/2.8.2r1/build/assets/skins/sam/sprite.png) no-repeat 0 -500px;
 	width:25px;
 	height:15px;
 	top:0;
@@ -250,7 +250,7 @@ version: 2.8.2
 }
 
 .yui-skin-sam .yui-calendar a.calnav:hover { 
-	background: url(http://yui.yahooapis.com/2.8.2/build/assets/skins/sam/sprite.png) repeat-x 0 0;
+	background: url(http://yui.yahooapis.com/2.8.2r1/build/assets/skins/sam/sprite.png) repeat-x 0 0;
 	border-color:#A0A0A0;
 	cursor:pointer;
 }
@@ -332,7 +332,7 @@ version: 2.8.2
 /* BUTTON WRAPPER */
 .yui-skin-sam .yui-calcontainer .yui-cal-nav .yui-cal-nav-btn {
 	border:1px solid #808080;
-	background: url(http://yui.yahooapis.com/2.8.2/build/assets/skins/sam/sprite.png) repeat-x 0 0;
+	background: url(http://yui.yahooapis.com/2.8.2r1/build/assets/skins/sam/sprite.png) repeat-x 0 0;
 	background-color:#ccc;
 	margin: auto .15em;
 }
@@ -353,7 +353,7 @@ version: 2.8.2
 .yui-skin-sam .yui-calcontainer .yui-cal-nav .yui-cal-nav-btn.yui-default {
 	border:1px solid #304369;
 	background-color: #426fd9;
-	background: url(http://yui.yahooapis.com/2.8.2/build/assets/skins/sam/sprite.png) repeat-x 0 -1400px;
+	background: url(http://yui.yahooapis.com/2.8.2r1/build/assets/skins/sam/sprite.png) repeat-x 0 -1400px;
 }
 
 .yui-skin-sam .yui-calcontainer .yui-cal-nav .yui-cal-nav-btn.yui-default button {

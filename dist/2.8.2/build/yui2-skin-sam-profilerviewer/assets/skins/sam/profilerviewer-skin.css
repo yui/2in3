@@ -2,7 +2,7 @@
 Copyright (c) 2010, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
 http://developer.yahoo.com/yui/license.html
-version: 2.8.2
+version: 2.8.2r1
 */
 .yui-skin-sam .yui-pv {
 	background-color:#4a4a4a;
@@ -15,7 +15,7 @@ version: 2.8.2
 }
 
 .yui-skin-sam .yui-pv .hd {
-	background:url(http://yui.yahooapis.com/2.8.2/build/profilerviewer/assets/skins/sam/header_background.png) repeat-x;
+	background:url(http://yui.yahooapis.com/2.8.2r1/build/profilerviewer/assets/skins/sam/header_background.png) repeat-x;
 	min-height:30px;
 	overflow:hidden;
 	zoom:1;
@@ -48,7 +48,7 @@ version: 2.8.2
 .yui-skin-sam .yui-pv .hd span.yui-pv-busy {
 	height:18px;
 	width:18px;
-	background:url(http://yui.yahooapis.com/2.8.2/build/profilerviewer/assets/skins/sam/wait.gif) no-repeat;
+	background:url(http://yui.yahooapis.com/2.8.2r1/build/profilerviewer/assets/skins/sam/wait.gif) no-repeat;
 	overflow:hidden;
 	display:block;
 	float:right;
@@ -102,11 +102,11 @@ version: 2.8.2
 }
 
 .yui-skin-sam .yui-pv th.yui-dt-asc .yui-dt-liner {
-	background:transparent url(http://yui.yahooapis.com/2.8.2/build/profilerviewer/assets/skins/sam/asc.gif) no-repeat scroll right center;
+	background:transparent url(http://yui.yahooapis.com/2.8.2r1/build/profilerviewer/assets/skins/sam/asc.gif) no-repeat scroll right center;
 }
 
 .yui-skin-sam .yui-pv th.yui-dt-desc .yui-dt-liner {
-	background:transparent url(http://yui.yahooapis.com/2.8.2/build/profilerviewer/assets/skins/sam/desc.gif) no-repeat scroll right center;
+	background:transparent url(http://yui.yahooapis.com/2.8.2r1/build/profilerviewer/assets/skins/sam/desc.gif) no-repeat scroll right center;
 }
 
 .yui-skin-sam .yui-pv .yui-pv-table .yui-dt-hd th a {

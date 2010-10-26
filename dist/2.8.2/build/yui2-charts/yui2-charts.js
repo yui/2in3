@@ -4,7 +4,7 @@ YUI.add('yui2-charts', function(Y) {
 Copyright (c) 2010, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
 http://developer.yahoo.com/yui/license.html
-version: 2.8.2
+version: 2.8.2r1
 */
 /**
  * The Charts widget provides a Flash control for displaying data
@@ -2059,6 +2059,6 @@ YAHOO.lang.extend(YAHOO.widget.StackedColumnSeries, YAHOO.widget.CartesianSeries
 {
 	type: "stackcolumn"
 });
-YAHOO.register("charts", YAHOO.widget.Chart, {version: "2.8.2", build: "6"});
+YAHOO.register("charts", YAHOO.widget.Chart, {version: "2.8.2r1", build: "8"});
 
 }, '2.8.2' ,{"requires": ["yui2-yahoo", "yui2-dom", "yui2-event", "yui2-element", "yui2-swf", "yui2-json", "yui2-datasource"]});

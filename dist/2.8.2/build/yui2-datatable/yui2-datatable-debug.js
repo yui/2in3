@@ -4,7 +4,7 @@ YUI.add('yui2-datatable', function(Y) {
 Copyright (c) 2010, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
 http://developer.yahoo.com/yui/license.html
-version: 2.8.2
+version: 2.8.2r1
 */
 /**
  * Mechanism to execute a series of callbacks in a non-blocking queue.  Each callback is executed via setTimout unless configured with a negative timeout, in which case it is run in blocking mode in the same execution thread as the previous callback.  Callbacks can be function references or object literals with the following keys:
@@ -17359,6 +17359,6 @@ lang.augmentObject(CE, BCE);
 
 })();
 
-YAHOO.register("datatable", YAHOO.widget.DataTable, {version: "2.8.2", build: "6"});
+YAHOO.register("datatable", YAHOO.widget.DataTable, {version: "2.8.2r1", build: "8"});
 
 }, '2.8.2' ,{"requires": ["yui2-yahoo", "yui2-dom", "yui2-event", "yui2-skin-sam-datatable", "yui2-element", "yui2-datasource"], "optional": ["yui2-skin-sam-paginator", "yui2-paginator", "yui2-dragdrop", "yui2-skin-sam-calendar", "yui2-calendar"]});

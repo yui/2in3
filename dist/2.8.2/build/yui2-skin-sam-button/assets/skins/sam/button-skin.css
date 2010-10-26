@@ -2,14 +2,14 @@
 Copyright (c) 2010, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
 http://developer.yahoo.com/yui/license.html
-version: 2.8.2
+version: 2.8.2r1
 */
 .yui-skin-sam .yui-button  {
 
     border-width: 1px 0;
     border-style: solid;
     border-color: #808080;
-    background: url(http://yui.yahooapis.com/2.8.2/build/assets/skins/sam/sprite.png) repeat-x 0 0;
+    background: url(http://yui.yahooapis.com/2.8.2r1/build/assets/skins/sam/sprite.png) repeat-x 0 0;
     margin: auto .25em;
     
 }
@@ -66,13 +66,13 @@ version: 2.8.2
 
 .yui-skin-sam .yui-menu-button button {
 
-    background-image: url(http://yui.yahooapis.com/2.8.2/build/button/assets/skins/sam/menu-button-arrow.png);
+    background-image: url(http://yui.yahooapis.com/2.8.2r1/build/button/assets/skins/sam/menu-button-arrow.png);
 
 }
 
 .yui-skin-sam .yui-split-button button {
 
-    background-image: url(http://yui.yahooapis.com/2.8.2/build/button/assets/skins/sam/split-button-arrow.png);
+    background-image: url(http://yui.yahooapis.com/2.8.2r1/build/button/assets/skins/sam/split-button-arrow.png);
 
 }
 
@@ -95,7 +95,7 @@ version: 2.8.2
 
 .yui-skin-sam .yui-split-button-focus button {
 
-    background-image: url(http://yui.yahooapis.com/2.8.2/build/button/assets/skins/sam/split-button-arrow-focus.png);
+    background-image: url(http://yui.yahooapis.com/2.8.2r1/build/button/assets/skins/sam/split-button-arrow-focus.png);
 
 }
 
@@ -117,7 +117,7 @@ version: 2.8.2
 
 .yui-skin-sam .yui-split-button-hover button {
 
-    background-image: url(http://yui.yahooapis.com/2.8.2/build/button/assets/skins/sam/split-button-arrow-hover.png);
+    background-image: url(http://yui.yahooapis.com/2.8.2r1/build/button/assets/skins/sam/split-button-arrow-hover.png);
 
 }
 
@@ -152,7 +152,7 @@ version: 2.8.2
 
 .yui-skin-sam .yui-split-button-activeoption button {
 
-    background-image: url(http://yui.yahooapis.com/2.8.2/build/button/assets/skins/sam/split-button-arrow-active.png);
+    background-image: url(http://yui.yahooapis.com/2.8.2r1/build/button/assets/skins/sam/split-button-arrow-active.png);
 
 }
 
@@ -208,12 +208,12 @@ version: 2.8.2
 
 .yui-skin-sam .yui-menu-button-disabled button {
 
-    background-image: url(http://yui.yahooapis.com/2.8.2/build/button/assets/skins/sam/menu-button-arrow-disabled.png);
+    background-image: url(http://yui.yahooapis.com/2.8.2r1/build/button/assets/skins/sam/menu-button-arrow-disabled.png);
     
 }
 
 .yui-skin-sam .yui-split-button-disabled button {
 
-    background-image: url(http://yui.yahooapis.com/2.8.2/build/button/assets/skins/sam/split-button-arrow-disabled.png);
+    background-image: url(http://yui.yahooapis.com/2.8.2r1/build/button/assets/skins/sam/split-button-arrow-disabled.png);
     
 }

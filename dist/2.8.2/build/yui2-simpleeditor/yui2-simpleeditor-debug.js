@@ -4,7 +4,7 @@ YUI.add('yui2-simpleeditor', function(Y) {
 Copyright (c) 2010, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
 http://developer.yahoo.com/yui/license.html
-version: 2.8.2
+version: 2.8.2r1
 */
 (function() {
 var Dom = YAHOO.util.Dom,
@@ -7492,6 +7492,6 @@ YAHOO.widget.EditorInfo = {
 
     
 })();
-YAHOO.register("simpleeditor", YAHOO.widget.SimpleEditor, {version: "2.8.2", build: "6"});
+YAHOO.register("simpleeditor", YAHOO.widget.SimpleEditor, {version: "2.8.2r1", build: "8"});
 
 }, '2.8.2' ,{"requires": ["yui2-yahoo", "yui2-dom", "yui2-skin-sam-simpleeditor", "yui2-event", "yui2-element"], "optional": ["yui2-containercore", "yui2-dragdrop", "yui2-skin-sam-button", "yui2-skin-sam-menu", "yui2-menu", "yui2-button", "yui2-animation"]});

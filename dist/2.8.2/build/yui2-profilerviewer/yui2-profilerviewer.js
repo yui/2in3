@@ -4,7 +4,7 @@ YUI.add('yui2-profilerviewer', function(Y) {
 Copyright (c) 2010, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
 http://developer.yahoo.com/yui/license.html
-version: 2.8.2
+version: 2.8.2r1
 */
 (function() {
 
@@ -1191,6 +1191,6 @@ version: 2.8.2
     };
 	
 })();
-YAHOO.register("profilerviewer", YAHOO.widget.ProfilerViewer, {version: "2.8.2", build: "6"});
+YAHOO.register("profilerviewer", YAHOO.widget.ProfilerViewer, {version: "2.8.2r1", build: "8"});
 
 }, '2.8.2' ,{"requires": ["yui2-skin-sam-profilerviewer", "yui2-yuiloader", "yui2-dom", "yui2-event", "yui2-element", "yui2-profiler"]});

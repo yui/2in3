@@ -4,7 +4,7 @@ YUI.add('yui2-datemath', function(Y) {
 Copyright (c) 2010, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
 http://developer.yahoo.com/yui/license.html
-version: 2.8.2
+version: 2.8.2r1
 */
 /**
 * The datemath module provides utility methods for basic JavaScript Date object manipulation and 
@@ -407,6 +407,6 @@ YAHOO.widget.DateMath = {
         return dt;
     }
 };
-YAHOO.register("datemath", YAHOO.widget.DateMath, {version: "2.8.2", build: "6"});
+YAHOO.register("datemath", YAHOO.widget.DateMath, {version: "2.8.2r1", build: "8"});
 
 }, '2.8.2' ,{"requires": ["yui2-yahoo"]});

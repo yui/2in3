@@ -4,7 +4,7 @@ YUI.add('yui2-carousel', function(Y) {
 Copyright (c) 2010, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
 http://developer.yahoo.com/yui/license.html
-version: 2.8.2
+version: 2.8.2r1
 */
 /**
  * The Carousel module provides a widget for browsing among a set of like
@@ -4389,6 +4389,6 @@ version: 2.8.2
 ;;  indent-tabs-mode: nil **
 ;;  End: **
 */
-YAHOO.register("carousel", YAHOO.widget.Carousel, {version: "2.8.2", build: "6"});
+YAHOO.register("carousel", YAHOO.widget.Carousel, {version: "2.8.2r1", build: "8"});
 
 }, '2.8.2' ,{"requires": ["yui2-yahoo", "yui2-dom", "yui2-event", "yui2-element", "yui2-skin-sam-carousel"], "optional": ["yui2-animation"]});

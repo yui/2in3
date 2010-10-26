@@ -3,7 +3,7 @@ YUI.add('yui2-yahoo', function(Y) {
 Copyright (c) 2010, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
 http://developer.yahoo.com/yui/license.html
-version: 2.8.2
+version: 2.8.2r1
 */
 /**
  * The YAHOO object is the single global object used by YUI Library.  It
@@ -1073,7 +1073,7 @@ YAHOO.augment = L.augmentProto;
 YAHOO.extend = L.extend;
 
 })();
-YAHOO.register("yahoo", YAHOO, {version: "2.8.2", build: "6"});
+YAHOO.register("yahoo", YAHOO, {version: "2.8.2r1", build: "8"});
 
     Y.YUI2 = YAHOO;
 }, '2.8.2' ,{});

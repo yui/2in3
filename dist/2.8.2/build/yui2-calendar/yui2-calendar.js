@@ -5,7 +5,7 @@ YUI.add('yui2-calendar', function(Y) {
 Copyright (c) 2010, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
 http://developer.yahoo.com/yui/license.html
-version: 2.8.2
+version: 2.8.2r1
 */
 (function () {
 
@@ -7294,6 +7294,6 @@ YAHOO.widget.CalendarNavigator.prototype = {
     __isMac : (navigator.userAgent.toLowerCase().indexOf("macintosh") != -1)
 
 };
-YAHOO.register("calendar", YAHOO.widget.Calendar, {version: "2.8.2", build: "6"});
+YAHOO.register("calendar", YAHOO.widget.Calendar, {version: "2.8.2r1", build: "8"});
 
 }, '2.8.2' ,{"requires": ["yui2-yahoo", "yui2-dom", "yui2-event", "yui2-skin-sam-calendar"], "supersedes": ["yui2-datemath"]});

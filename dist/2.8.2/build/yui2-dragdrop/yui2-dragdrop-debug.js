@@ -4,7 +4,7 @@ YUI.add('yui2-dragdrop', function(Y) {
 Copyright (c) 2010, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
 http://developer.yahoo.com/yui/license.html
-version: 2.8.2
+version: 2.8.2r1
 */
 /**
  * The drag and drop utility provides a framework for building drag and drop
@@ -3709,6 +3709,6 @@ YAHOO.extend(YAHOO.util.DDTarget, YAHOO.util.DragDrop, {
         return ("DDTarget " + this.id);
     }
 });
-YAHOO.register("dragdrop", YAHOO.util.DragDropMgr, {version: "2.8.2", build: "6"});
+YAHOO.register("dragdrop", YAHOO.util.DragDropMgr, {version: "2.8.2r1", build: "8"});
 
 }, '2.8.2' ,{"requires": ["yui2-yahoo", "yui2-dom", "yui2-event"]});

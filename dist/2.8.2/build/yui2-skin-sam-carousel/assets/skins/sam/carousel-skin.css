@@ -2,7 +2,7 @@
 Copyright (c) 2010, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
 http://developer.yahoo.com/yui/license.html
-version: 2.8.2
+version: 2.8.2r1
 */
 .yui-skin-sam .yui-carousel,
 .yui-skin-sam .yui-carousel-vertical {
@@ -10,13 +10,13 @@ version: 2.8.2
 }
 
 .yui-skin-sam .yui-carousel-nav {
-    background: url(http://yui.yahooapis.com/2.8.2/build/assets/skins/sam/sprite.png) repeat-x 0 0;
+    background: url(http://yui.yahooapis.com/2.8.2r1/build/assets/skins/sam/sprite.png) repeat-x 0 0;
     padding: 3px;
     text-align: right;
 }
 
 .yui-skin-sam .yui-carousel-button {
-    background: url(http://yui.yahooapis.com/2.8.2/build/assets/skins/sam/sprite.png) no-repeat 0 -600px;
+    background: url(http://yui.yahooapis.com/2.8.2r1/build/assets/skins/sam/sprite.png) no-repeat 0 -600px;
     float: right;
     height: 19px;
     margin: 5px;
@@ -99,7 +99,7 @@ version: 2.8.2
 }
 
 .yui-skin-sam .yui-carousel-nav ul li {
-    background: url(http://yui.yahooapis.com/2.8.2/build/assets/skins/sam/sprite.png) no-repeat 0 -650px;
+    background: url(http://yui.yahooapis.com/2.8.2r1/build/assets/skins/sam/sprite.png) no-repeat 0 -650px;
     cursor: pointer;
     float: left;
     height: 9px;
@@ -136,7 +136,7 @@ version: 2.8.2
 }
 
 .yui-skin-sam .yui-carousel-item-loading {
-    background: url(http://yui.yahooapis.com/2.8.2/build/carousel/assets/skins/sam/ajax-loader.gif) no-repeat 50% 50%;
+    background: url(http://yui.yahooapis.com/2.8.2r1/build/carousel/assets/skins/sam/ajax-loader.gif) no-repeat 50% 50%;
     position: absolute;
     text-indent: -150px;
 }

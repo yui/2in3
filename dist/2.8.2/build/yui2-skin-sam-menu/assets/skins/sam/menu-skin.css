@@ -2,7 +2,7 @@
 Copyright (c) 2010, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
 http://developer.yahoo.com/yui/license.html
-version: 2.8.2
+version: 2.8.2r1
 */
 /* MenuBar style rules */
 
@@ -12,7 +12,7 @@ version: 2.8.2
     line-height: 2;  /* ~24px */
     *line-height: 1.9; /* For IE */
     border: solid 1px #808080;
-    background: url(http://yui.yahooapis.com/2.8.2/build/assets/skins/sam/sprite.png) repeat-x 0 0;
+    background: url(http://yui.yahooapis.com/2.8.2r1/build/assets/skins/sam/sprite.png) repeat-x 0 0;
 
 }
 
@@ -61,7 +61,7 @@ version: 2.8.2
 
 .yui-skin-sam .yuimenubarnav .yuimenubaritemlabel-hassubmenu {
 
-    background: url(http://yui.yahooapis.com/2.8.2/build/menu/assets/skins/sam/menubaritem_submenuindicator.png) right center no-repeat;
+    background: url(http://yui.yahooapis.com/2.8.2r1/build/menu/assets/skins/sam/menubaritem_submenuindicator.png) right center no-repeat;
 
 }
 
@@ -73,7 +73,7 @@ version: 2.8.2
 
 .yui-skin-sam .yuimenubaritem-selected {
 
-    background: url(http://yui.yahooapis.com/2.8.2/build/assets/skins/sam/sprite.png) repeat-x 0 -1700px;
+    background: url(http://yui.yahooapis.com/2.8.2r1/build/assets/skins/sam/sprite.png) repeat-x 0 -1700px;
 
 }
 
@@ -104,7 +104,7 @@ version: 2.8.2
 
 .yui-skin-sam .yuimenubarnav .yuimenubaritemlabel-hassubmenu-disabled {
 
-    background-image: url(http://yui.yahooapis.com/2.8.2/build/menu/assets/skins/sam/menubaritem_submenuindicator_disabled.png);
+    background-image: url(http://yui.yahooapis.com/2.8.2r1/build/menu/assets/skins/sam/menubaritem_submenuindicator_disabled.png);
 
 }
 
@@ -198,7 +198,7 @@ version: 2.8.2
 
     height: 16px;
     border: solid 1px #808080;
-    background: #fff url(http://yui.yahooapis.com/2.8.2/build/assets/skins/sam/sprite.png) no-repeat 0 0;
+    background: #fff url(http://yui.yahooapis.com/2.8.2r1/build/assets/skins/sam/sprite.png) no-repeat 0 0;
 
 }
 
@@ -268,7 +268,7 @@ version: 2.8.2
 
 .yui-skin-sam .yuimenuitem-hassubmenu {
 
-    background-image: url(http://yui.yahooapis.com/2.8.2/build/menu/assets/skins/sam/menuitem_submenuindicator.png);
+    background-image: url(http://yui.yahooapis.com/2.8.2r1/build/menu/assets/skins/sam/menuitem_submenuindicator.png);
     background-position: right center;
     background-repeat: no-repeat;
 
@@ -276,7 +276,7 @@ version: 2.8.2
 
 .yui-skin-sam .yuimenuitem-checked {
 
-    background-image: url(http://yui.yahooapis.com/2.8.2/build/menu/assets/skins/sam/menuitem_checkbox.png);
+    background-image: url(http://yui.yahooapis.com/2.8.2r1/build/menu/assets/skins/sam/menuitem_checkbox.png);
     background-position: left center;
     background-repeat: no-repeat;
 
@@ -328,12 +328,12 @@ version: 2.8.2
 
 .yui-skin-sam .yuimenuitem-hassubmenu-disabled {
 
-    background-image: url(http://yui.yahooapis.com/2.8.2/build/menu/assets/skins/sam/menuitem_submenuindicator_disabled.png);
+    background-image: url(http://yui.yahooapis.com/2.8.2r1/build/menu/assets/skins/sam/menuitem_submenuindicator_disabled.png);
 
 }
 
 .yui-skin-sam .yuimenuitem-checked-disabled {
 
-    background-image: url(http://yui.yahooapis.com/2.8.2/build/menu/assets/skins/sam/menuitem_checkbox_disabled.png);
+    background-image: url(http://yui.yahooapis.com/2.8.2r1/build/menu/assets/skins/sam/menuitem_checkbox_disabled.png);
 
 }

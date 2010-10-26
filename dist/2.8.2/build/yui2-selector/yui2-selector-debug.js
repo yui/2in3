@@ -4,7 +4,7 @@ YUI.add('yui2-selector', function(Y) {
 Copyright (c) 2010, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
 http://developer.yahoo.com/yui/license.html
-version: 2.8.2
+version: 2.8.2r1
 */
 /**
  * The selector module provides helper methods allowing CSS3 Selectors to be used with DOM elements.
@@ -650,6 +650,6 @@ if (YAHOO.env.ua.ie && YAHOO.env.ua.ie < 8) { // rewrite class for IE < 8
 }
 
 })();
-YAHOO.register("selector", YAHOO.util.Selector, {version: "2.8.2", build: "6"});
+YAHOO.register("selector", YAHOO.util.Selector, {version: "2.8.2r1", build: "8"});
 
 }, '2.8.2' ,{"requires": ["yui2-yahoo", "yui2-dom"]});

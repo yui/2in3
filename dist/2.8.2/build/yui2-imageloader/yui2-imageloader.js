@@ -4,7 +4,7 @@ YUI.add('yui2-imageloader', function(Y) {
 Copyright (c) 2010, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
 http://developer.yahoo.com/yui/license.html
-version: 2.8.2
+version: 2.8.2r1
 */
 /**
  * The ImageLoader Utility is a framework to dynamically load images according to certain triggers,
@@ -480,6 +480,6 @@ YAHOO.util.ImageLoader.pngBgImgObj.prototype._applyUrl = function(el) {
 		el.style.backgroundImage = "url('" + this.url + "')";
 	}
 };
-YAHOO.register("imageloader", YAHOO.util.ImageLoader, {version: "2.8.2", build: "6"});
+YAHOO.register("imageloader", YAHOO.util.ImageLoader, {version: "2.8.2r1", build: "8"});
 
 }, '2.8.2' ,{"requires": ["yui2-yahoo", "yui2-dom", "yui2-event"]});

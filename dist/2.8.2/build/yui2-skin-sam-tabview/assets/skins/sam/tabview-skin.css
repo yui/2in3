@@ -2,7 +2,7 @@
 Copyright (c) 2010, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
 http://developer.yahoo.com/yui/license.html
-version: 2.8.2
+version: 2.8.2r1
 */
 /* .yui-navset defaults to .yui-navset-top */
 .yui-skin-sam .yui-navset .yui-nav,
@@ -26,7 +26,7 @@ version: 2.8.2
 
 .yui-skin-sam .yui-navset .yui-nav a,
 .yui-skin-sam .yui-navset .yui-navset-top .yui-nav a {
-    background:#d8d8d8 url(http://yui.yahooapis.com/2.8.2/build/assets/skins/sam/sprite.png) repeat-x; /* tab background */
+    background:#d8d8d8 url(http://yui.yahooapis.com/2.8.2r1/build/assets/skins/sam/sprite.png) repeat-x; /* tab background */
     border:solid #a3a3a3;
     border-width:0 1px;
     color:#000;
@@ -48,13 +48,13 @@ version: 2.8.2
 .yui-skin-sam .yui-navset .yui-nav .selected a,
 .yui-skin-sam .yui-navset .yui-nav .selected a:focus, /* no focus effect for selected */
 .yui-skin-sam .yui-navset .yui-nav .selected a:hover { /* no hover effect for selected */
-    background:#2647a0 url(http://yui.yahooapis.com/2.8.2/build/assets/skins/sam/sprite.png) repeat-x left -1400px; /* selected tab background */
+    background:#2647a0 url(http://yui.yahooapis.com/2.8.2r1/build/assets/skins/sam/sprite.png) repeat-x left -1400px; /* selected tab background */
     color:#fff;
 }
 
 .yui-skin-sam .yui-navset .yui-nav a:hover,
 .yui-skin-sam .yui-navset .yui-nav a:focus {
-    background:#bfdaff url(http://yui.yahooapis.com/2.8.2/build/assets/skins/sam/sprite.png) repeat-x left -1300px; /* selected tab background */
+    background:#bfdaff url(http://yui.yahooapis.com/2.8.2r1/build/assets/skins/sam/sprite.png) repeat-x left -1300px; /* selected tab background */
     outline:0;
 }
 

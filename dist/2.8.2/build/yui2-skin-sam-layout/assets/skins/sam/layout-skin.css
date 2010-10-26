@@ -2,7 +2,7 @@
 Copyright (c) 2010, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
 http://developer.yahoo.com/yui/license.html
-version: 2.8.2
+version: 2.8.2r1
 */
 /* Remove the dotted border on the resize proxy */
 .yui-skin-sam .yui-layout .yui-resize-proxy {
@@ -61,53 +61,53 @@ version: 2.8.2
 
 /* Left Collapse button */
 .yui-skin-sam .yui-layout .yui-layout-unit-left div.yui-layout-hd .collapse {
-    background: transparent url(http://yui.yahooapis.com/2.8.2/build/layout/assets/skins/sam/layout_sprite.png) no-repeat -20px -160px;
+    background: transparent url(http://yui.yahooapis.com/2.8.2r1/build/layout/assets/skins/sam/layout_sprite.png) no-repeat -20px -160px;
     border: 1px solid #808080;
 }
 /* Left Collapsed Expand Button */
 .yui-skin-sam .yui-layout .yui-layout-clip-left .collapse {
-    background: transparent url(http://yui.yahooapis.com/2.8.2/build/layout/assets/skins/sam/layout_sprite.png) no-repeat -20px -140px;
+    background: transparent url(http://yui.yahooapis.com/2.8.2r1/build/layout/assets/skins/sam/layout_sprite.png) no-repeat -20px -140px;
     border: 1px solid #808080;
 }
 /* Right Collapse Button */
 .yui-skin-sam .yui-layout .yui-layout-unit-right div.yui-layout-hd .collapse {
-    background: transparent url(http://yui.yahooapis.com/2.8.2/build/layout/assets/skins/sam/layout_sprite.png) no-repeat -20px -200px;
+    background: transparent url(http://yui.yahooapis.com/2.8.2r1/build/layout/assets/skins/sam/layout_sprite.png) no-repeat -20px -200px;
     border: 1px solid #808080;
 }
 /* Right Collapsed Expand Button */
 .yui-skin-sam .yui-layout .yui-layout-clip-right .collapse {
-    background: transparent url(http://yui.yahooapis.com/2.8.2/build/layout/assets/skins/sam/layout_sprite.png) no-repeat -20px -120px;
+    background: transparent url(http://yui.yahooapis.com/2.8.2r1/build/layout/assets/skins/sam/layout_sprite.png) no-repeat -20px -120px;
     border: 1px solid #808080;
 }
 /* Top Collapse Button */
 .yui-skin-sam .yui-layout .yui-layout-unit-top div.yui-layout-hd .collapse {
-    background: transparent url(http://yui.yahooapis.com/2.8.2/build/layout/assets/skins/sam/layout_sprite.png) no-repeat -20px -220px;
+    background: transparent url(http://yui.yahooapis.com/2.8.2r1/build/layout/assets/skins/sam/layout_sprite.png) no-repeat -20px -220px;
     border: 1px solid #808080;
 }
 /* Top Collapsed Expand Button */
 .yui-skin-sam .yui-layout .yui-layout-clip-top .collapse {
-    background: transparent url(http://yui.yahooapis.com/2.8.2/build/layout/assets/skins/sam/layout_sprite.png) no-repeat -20px -240px;
+    background: transparent url(http://yui.yahooapis.com/2.8.2r1/build/layout/assets/skins/sam/layout_sprite.png) no-repeat -20px -240px;
     border: 1px solid #808080;
 }
 /* Bottom Collapse Button */
 .yui-skin-sam .yui-layout .yui-layout-unit-bottom div.yui-layout-hd .collapse {
-    background: transparent url(http://yui.yahooapis.com/2.8.2/build/layout/assets/skins/sam/layout_sprite.png) no-repeat -20px -260px;
+    background: transparent url(http://yui.yahooapis.com/2.8.2r1/build/layout/assets/skins/sam/layout_sprite.png) no-repeat -20px -260px;
     border: 1px solid #808080;
 }
 /* Bottom Collapsed Expand Button */
 .yui-skin-sam .yui-layout .yui-layout-clip-bottom .collapse {
-    background: transparent url(http://yui.yahooapis.com/2.8.2/build/layout/assets/skins/sam/layout_sprite.png) no-repeat -20px -180px;
+    background: transparent url(http://yui.yahooapis.com/2.8.2r1/build/layout/assets/skins/sam/layout_sprite.png) no-repeat -20px -180px;
     border: 1px solid #808080;
 }
 /* Close Button */
 .yui-skin-sam .yui-layout .yui-layout-unit div.yui-layout-hd .close {
-    background: transparent url(http://yui.yahooapis.com/2.8.2/build/layout/assets/skins/sam/layout_sprite.png) no-repeat -20px -100px;
+    background: transparent url(http://yui.yahooapis.com/2.8.2r1/build/layout/assets/skins/sam/layout_sprite.png) no-repeat -20px -100px;
     border: 1px solid #808080;
 }
 
 /* Give the header a blue backgorund */
 .yui-skin-sam .yui-layout .yui-layout-hd {
-    background:url(http://yui.yahooapis.com/2.8.2/build/assets/skins/sam/sprite.png) repeat-x 0 -1400px;
+    background:url(http://yui.yahooapis.com/2.8.2r1/build/assets/skins/sam/sprite.png) repeat-x 0 -1400px;
     border: 1px solid #808080;
 }
 /* Set the background color */
@@ -193,7 +193,7 @@ version: 2.8.2
     top: 45%;
     left: 0px;
     display: block;
-    background: transparent url(http://yui.yahooapis.com/2.8.2/build/layout/assets/skins/sam/layout_sprite.png) no-repeat 0 -5px;
+    background: transparent url(http://yui.yahooapis.com/2.8.2r1/build/layout/assets/skins/sam/layout_sprite.png) no-repeat 0 -5px;
 }
 /* Add the gripper */
 .yui-skin-sam .yui-layout-unit .yui-resize-handle-t .yui-layout-resize-knob,
@@ -202,6 +202,6 @@ version: 2.8.2
     height: 6px;
     width: 16px;
     left: 45%;
-    background: transparent url(http://yui.yahooapis.com/2.8.2/build/layout/assets/skins/sam/layout_sprite.png) no-repeat -20px 0;
+    background: transparent url(http://yui.yahooapis.com/2.8.2r1/build/layout/assets/skins/sam/layout_sprite.png) no-repeat -20px 0;
     zoom: 1;
 }

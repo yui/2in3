@@ -4,7 +4,7 @@ YUI.add('yui2-stylesheet', function(Y) {
 Copyright (c) 2010, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
 http://developer.yahoo.com/yui/license.html
-version: 2.8.2
+version: 2.8.2r1
 */
 /**
  * The StyleSheet component is a utility for managing css rules at the
@@ -647,6 +647,6 @@ NOTES
  * IE6-8 addRule('.foo','',n) throws an error.  Must supply *some* cssText
 */
 
-YAHOO.register("stylesheet", YAHOO.util.StyleSheet, {version: "2.8.2", build: "6"});
+YAHOO.register("stylesheet", YAHOO.util.StyleSheet, {version: "2.8.2r1", build: "8"});
 
 }, '2.8.2' ,{"requires": ["yui2-yahoo"]});

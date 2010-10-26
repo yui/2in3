@@ -2,7 +2,7 @@
 Copyright (c) 2010, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
 http://developer.yahoo.com/yui/license.html
-version: 2.8.2
+version: 2.8.2r1
 */
 /* Place the border around the editor */
 .yui-skin-sam .yui-editor-container {
@@ -14,7 +14,7 @@ version: 2.8.2
 }
 /* Load the background image on the Toolbars titlebar */
 .yui-skin-sam .yui-toolbar-container .yui-toolbar-titlebar {
-    background: url(http://yui.yahooapis.com/2.8.2/build/assets/skins/sam/sprite.png) repeat-x 0 -200px;
+    background: url(http://yui.yahooapis.com/2.8.2r1/build/assets/skins/sam/sprite.png) repeat-x 0 -200px;
     position: relative;
 }
 .yui-skin-sam .yui-editor-container .draggable .yui-toolbar-titlebar {
@@ -98,11 +98,11 @@ version: 2.8.2
 
 /* Set the image for the collapse button on the toolbar */
 .yui-skin-sam .yui-toolbar-container .collapse {
-    background: url(http://yui.yahooapis.com/2.8.2/build/assets/skins/sam/sprite.png) no-repeat 0 -400px;
+    background: url(http://yui.yahooapis.com/2.8.2r1/build/assets/skins/sam/sprite.png) no-repeat 0 -400px;
 }
 /* Set the image for the collapse button on the toolbar */
 .yui-skin-sam .yui-toolbar-container .collapsed {
-    background: url(http://yui.yahooapis.com/2.8.2/build/assets/skins/sam/sprite.png) no-repeat 0 -350px;
+    background: url(http://yui.yahooapis.com/2.8.2r1/build/assets/skins/sam/sprite.png) no-repeat 0 -350px;
 }
 /* Position the image and the container */
 .yui-skin-sam .yui-toolbar-container .yui-toolbar-titlebar span.collapse {
@@ -121,7 +121,7 @@ version: 2.8.2
 .yui-skin-sam .yui-toolbar-container .yui-push-button,
 .yui-skin-sam .yui-toolbar-container .yui-color-button,
 .yui-skin-sam .yui-toolbar-container .yui-menu-button {
-    background: url(http://yui.yahooapis.com/2.8.2/build/assets/skins/sam/sprite.png) repeat-x 0 0;
+    background: url(http://yui.yahooapis.com/2.8.2r1/build/assets/skins/sam/sprite.png) repeat-x 0 0;
     position: relative;
     display: block;
     height: 22px;
@@ -196,13 +196,13 @@ version: 2.8.2
 
 /* Handle the hover state of the buttons */
 .yui-skin-sam .yui-toolbar-container .yui-button-hover {
-    background:url(http://yui.yahooapis.com/2.8.2/build/assets/skins/sam/sprite.png) repeat-x 0 -1300px;
+    background:url(http://yui.yahooapis.com/2.8.2r1/build/assets/skins/sam/sprite.png) repeat-x 0 -1300px;
     border-color: #808080;
 }
 
 /* Handle the selected state of the buttons */
 .yui-skin-sam .yui-toolbar-container .yui-button-selected {
-    background: url(http://yui.yahooapis.com/2.8.2/build/assets/skins/sam/sprite.png) repeat-x 0 -1700px;
+    background: url(http://yui.yahooapis.com/2.8.2r1/build/assets/skins/sam/sprite.png) repeat-x 0 -1700px;
     border-color: #808080;
 }
 /* When the nogrouplabels class is applied, set the h3's to display none */
@@ -229,12 +229,12 @@ version: 2.8.2
     height: 18px;
     width: 18px;
     overflow: hidden;
-    background: url(http://yui.yahooapis.com/2.8.2/build/editor/assets/skins/sam/editor-sprite.gif) no-repeat 30px 30px;
+    background: url(http://yui.yahooapis.com/2.8.2r1/build/editor/assets/skins/sam/editor-sprite.gif) no-repeat 30px 30px;
 }
 
 /* Swap out the image to an active image */
 .yui-skin-sam .yui-toolbar-container .yui-button-selected span.yui-toolbar-icon, .yui-skin-sam .yui-toolbar-container .yui-button-hover span.yui-toolbar-icon {
-    background-image: url(http://yui.yahooapis.com/2.8.2/build/editor/assets/skins/sam/editor-sprite-active.gif);
+    background-image: url(http://yui.yahooapis.com/2.8.2r1/build/editor/assets/skins/sam/editor-sprite-active.gif);
 }
 /* Change the defaults to make them look more like the editor */
 .yui-skin-sam .yui-toolbar-container .visible .yuimenuitemlabel {
@@ -414,7 +414,7 @@ version: 2.8.2
 .yui-skin-sam .yui-toolbar-container .yui-toolbar-spinbutton a.up,
 .yui-skin-sam .yui-toolbar-container .yui-toolbar-spinbutton a.down {
     right: 2px;
-    background: url(http://yui.yahooapis.com/2.8.2/build/editor/assets/skins/sam/editor-sprite.gif) no-repeat 0 -1222px;
+    background: url(http://yui.yahooapis.com/2.8.2r1/build/editor/assets/skins/sam/editor-sprite.gif) no-repeat 0 -1222px;
     overflow: hidden;
     height: 6px;
     width: 7px;
@@ -443,7 +443,7 @@ version: 2.8.2
 }
 /* Set the icon of the select menu for the drop down arrow */
 .yui-skin-sam .yui-toolbar-container .yui-toolbar-select span.yui-toolbar-icon {
-    background: url( http://yui.yahooapis.com/2.8.2/build/editor/assets/skins/sam/editor-sprite.gif ) no-repeat 0 -1144px;
+    background: url( http://yui.yahooapis.com/2.8.2r1/build/editor/assets/skins/sam/editor-sprite.gif ) no-repeat 0 -1144px;
     overflow: hidden;
     right: -2px;
     top: 0px;
@@ -485,7 +485,7 @@ version: 2.8.2
 .yui-skin-sam .yui-editor-panel .hd h3 {
     color: #000;
     border: 1px solid #808080;
-    background: url(http://yui.yahooapis.com/2.8.2/build/assets/skins/sam/sprite.png) repeat-x 0 -200px;
+    background: url(http://yui.yahooapis.com/2.8.2r1/build/assets/skins/sam/sprite.png) repeat-x 0 -200px;
     width: 99%;
     position: relative;
     margin: 0;
@@ -628,7 +628,7 @@ version: 2.8.2
 
 /* Style the close button in the Property Editor */
 .yui-skin-sam .yui-editor-panel .hd span.close {
-    background:url(http://yui.yahooapis.com/2.8.2/build/assets/skins/sam/sprite.png) no-repeat 0 -300px;
+    background:url(http://yui.yahooapis.com/2.8.2r1/build/assets/skins/sam/sprite.png) no-repeat 0 -300px;
     cursor:pointer;
     display:block;
     height:16px;
@@ -655,7 +655,7 @@ version: 2.8.2
 
 /* Setup the icon for a tip */
 .yui-skin-sam .yui-editor-panel .ft span.tip span.icon {
-    background: url( http://yui.yahooapis.com/2.8.2/build/editor/assets/skins/sam/editor-sprite.gif ) no-repeat 0 -1260px;
+    background: url( http://yui.yahooapis.com/2.8.2r1/build/editor/assets/skins/sam/editor-sprite.gif ) no-repeat 0 -1260px;
     display: block;
     height: 20px;
     left: 2px;
@@ -681,7 +681,7 @@ version: 2.8.2
     left: 25px;
     text-indent: 9999px;
     overflow: hidden;
-    background: url( http://yui.yahooapis.com/2.8.2/build/editor/assets/skins/sam/editor-knob.gif ) no-repeat 0 0;
+    background: url( http://yui.yahooapis.com/2.8.2r1/build/editor/assets/skins/sam/editor-knob.gif ) no-repeat 0 0;
 }
 /* Reset some styles from the editor toolbar, when a toolbar is inside the Property Editor */
 .yui-skin-sam .yui-editor-panel .yui-toolbar-container {
@@ -697,7 +697,7 @@ version: 2.8.2
 
 /* This image is the one used to place the blankimage placeholder into the editor when you click on Insert an Image */
 .yui-editor-blankimage {
-    background-image: url( http://yui.yahooapis.com/2.8.2/build/editor/assets/skins/sam/blankimage.png );
+    background-image: url( http://yui.yahooapis.com/2.8.2r1/build/editor/assets/skins/sam/blankimage.png );
 }
 
 .yui-skin-sam .yui-editor-container .yui-resize-handle-br {

@@ -4,7 +4,7 @@ YUI.add('yui2-yuitest', function(Y) {
 Copyright (c) 2010, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
 http://developer.yahoo.com/yui/license.html
-version: 2.8.2
+version: 2.8.2r1
 */
 YAHOO.namespace("tool");
 
@@ -2740,6 +2740,6 @@ YAHOO.tool.TestReporter.prototype = {
     }
 
 };
-YAHOO.register("yuitest", YAHOO.tool.TestRunner, {version: "2.8.2", build: "6"});
+YAHOO.register("yuitest", YAHOO.tool.TestRunner, {version: "2.8.2r1", build: "8"});
 
 }, '2.8.2' ,{"requires": ["yui2-skin-sam-yuitest", "yui2-yahoo", "yui2-dom", "yui2-event", "yui2-skin-sam-logger", "yui2-logger"], "optional": ["yui2-event-simulate"]});

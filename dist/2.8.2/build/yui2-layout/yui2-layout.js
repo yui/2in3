@@ -4,7 +4,7 @@ YUI.add('yui2-layout', function(Y) {
 Copyright (c) 2010, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
 http://developer.yahoo.com/yui/license.html
-version: 2.8.2
+version: 2.8.2r1
 */
 /**
  * @description <p>Provides a fixed layout containing, top, bottom, left, right and center layout units. It can be applied to either the body or an element.</p>
@@ -2289,6 +2289,6 @@ version: 2.8.2
 
     YAHOO.widget.LayoutUnit = LayoutUnit;
 })();
-YAHOO.register("layout", YAHOO.widget.Layout, {version: "2.8.2", build: "6"});
+YAHOO.register("layout", YAHOO.widget.Layout, {version: "2.8.2r1", build: "8"});
 
 }, '2.8.2' ,{"requires": ["yui2-yahoo", "yui2-dom", "yui2-skin-sam-layout", "yui2-event", "yui2-element"], "optional": ["yui2-dragdrop", "yui2-skin-sam-resize", "yui2-animation", "yui2-selector", "yui2-resize"]});

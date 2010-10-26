@@ -2,7 +2,7 @@
 Copyright (c) 2010, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
 http://developer.yahoo.com/yui/license.html
-version: 2.8.2
+version: 2.8.2r1
 */
 /* Menu & MenuBar styles */
 
@@ -335,25 +335,25 @@ when one of its submenus is visible.
 
 .yuimenu .topscrollbar {
 
-    background-image: url(http://yui.yahooapis.com/2.8.2/build/menu/assets/menu_up_arrow.png);
+    background-image: url(http://yui.yahooapis.com/2.8.2r1/build/menu/assets/menu_up_arrow.png);
 
 }
 
 .yuimenu .topscrollbar_disabled {
 
-    background-image: url(http://yui.yahooapis.com/2.8.2/build/menu/assets/menu_up_arrow_disabled.png);
+    background-image: url(http://yui.yahooapis.com/2.8.2r1/build/menu/assets/menu_up_arrow_disabled.png);
 
 }
 
 .yuimenu .bottomscrollbar {
 
-    background-image: url(http://yui.yahooapis.com/2.8.2/build/menu/assets/menu_down_arrow.png);
+    background-image: url(http://yui.yahooapis.com/2.8.2r1/build/menu/assets/menu_down_arrow.png);
 
 }
 
 .yuimenu .bottomscrollbar_disabled {
 
-    background-image: url(http://yui.yahooapis.com/2.8.2/build/menu/assets/menu_down_arrow_disabled.png);
+    background-image: url(http://yui.yahooapis.com/2.8.2r1/build/menu/assets/menu_down_arrow_disabled.png);
 
 }
 
@@ -406,19 +406,19 @@ when one of its submenus is visible.
 
 .yuimenubaritem-hassubmenu {
 
-    background: url(http://yui.yahooapis.com/2.8.2/build/menu/assets/menubaritem_submenuindicator.png) right center no-repeat;
+    background: url(http://yui.yahooapis.com/2.8.2r1/build/menu/assets/menubaritem_submenuindicator.png) right center no-repeat;
 
 }
 
 .yuimenuitem-hassubmenu {
 
-    background: url(http://yui.yahooapis.com/2.8.2/build/menu/assets/menuitem_submenuindicator.png) right center no-repeat;
+    background: url(http://yui.yahooapis.com/2.8.2r1/build/menu/assets/menuitem_submenuindicator.png) right center no-repeat;
 
 }
 
 .yuimenuitem-checked {
 
-    background: url(http://yui.yahooapis.com/2.8.2/build/menu/assets/menuitem_checkbox.png) left center no-repeat;
+    background: url(http://yui.yahooapis.com/2.8.2r1/build/menu/assets/menuitem_checkbox.png) left center no-repeat;
 
 }
 
@@ -455,19 +455,19 @@ when one of its submenus is visible.
 
 .yuimenubaritem-hassubmenu-selected {
 
-    background-image: url(http://yui.yahooapis.com/2.8.2/build/menu/assets/menubaritem_submenuindicator_selected.png);
+    background-image: url(http://yui.yahooapis.com/2.8.2r1/build/menu/assets/menubaritem_submenuindicator_selected.png);
 
 }
 
 .yuimenuitem-hassubmenu-selected {
 
-    background-image: url(http://yui.yahooapis.com/2.8.2/build/menu/assets/menuitem_submenuindicator_selected.png);
+    background-image: url(http://yui.yahooapis.com/2.8.2r1/build/menu/assets/menuitem_submenuindicator_selected.png);
 
 }
 
 .yuimenuitem-checked-selected {
 
-    background-image: url(http://yui.yahooapis.com/2.8.2/build/menu/assets/menuitem_checkbox_selected.png);
+    background-image: url(http://yui.yahooapis.com/2.8.2r1/build/menu/assets/menuitem_checkbox_selected.png);
 
 }
 
@@ -486,18 +486,18 @@ when one of its submenus is visible.
 
 .yuimenubaritem-hassubmenu-disabled {
 
-    background-image: url(http://yui.yahooapis.com/2.8.2/build/menu/assets/menubaritem_submenuindicator_disabled.png);
+    background-image: url(http://yui.yahooapis.com/2.8.2r1/build/menu/assets/menubaritem_submenuindicator_disabled.png);
 
 }
 
 .yuimenuitem-hassubmenu-disabled {
 
-    background-image: url(http://yui.yahooapis.com/2.8.2/build/menu/assets/menuitem_submenuindicator_disabled.png);
+    background-image: url(http://yui.yahooapis.com/2.8.2r1/build/menu/assets/menuitem_submenuindicator_disabled.png);
 
 }
 
 .yuimenuitem-checked-disabled {
 
-    background-image: url(http://yui.yahooapis.com/2.8.2/build/menu/assets/menuitem_checkbox_disabled.png);
+    background-image: url(http://yui.yahooapis.com/2.8.2r1/build/menu/assets/menuitem_checkbox_disabled.png);
 
 }

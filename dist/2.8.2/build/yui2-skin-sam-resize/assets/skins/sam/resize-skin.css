@@ -2,7 +2,7 @@
 Copyright (c) 2010, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
 http://developer.yahoo.com/yui/license.html
-version: 2.8.2
+version: 2.8.2r1
 */
 /* Give the handle a background color */
 .yui-skin-sam .yui-resize .yui-resize-handle {
@@ -57,7 +57,7 @@ version: 2.8.2
 /* Setup the gripper */
 .yui-skin-sam .yui-resize .yui-resize-handle-inner-r,
 .yui-skin-sam .yui-resize .yui-resize-handle-inner-l {
-    background: transparent url( http://yui.yahooapis.com/2.8.2/build/resize/assets/skins/sam/layout_sprite.png) no-repeat 0 -5px;
+    background: transparent url( http://yui.yahooapis.com/2.8.2r1/build/resize/assets/skins/sam/layout_sprite.png) no-repeat 0 -5px;
     height: 16px;
     width: 5px;
     position: absolute;
@@ -67,7 +67,7 @@ version: 2.8.2
 /* Setup the gripper */
 .yui-skin-sam .yui-resize .yui-resize-handle-inner-t,
 .yui-skin-sam .yui-resize .yui-resize-handle-inner-b {
-    background: transparent url(http://yui.yahooapis.com/2.8.2/build/resize/assets/skins/sam/layout_sprite.png) no-repeat -20px 0;
+    background: transparent url(http://yui.yahooapis.com/2.8.2r1/build/resize/assets/skins/sam/layout_sprite.png) no-repeat -20px 0;
     height: 5px;
     width: 16px;
     position: absolute;
@@ -76,28 +76,28 @@ version: 2.8.2
 
 /* Bottom Right Gripper */
 .yui-skin-sam .yui-resize .yui-resize-handle-br {
-    background-image: url( http://yui.yahooapis.com/2.8.2/build/resize/assets/skins/sam/layout_sprite.png );
+    background-image: url( http://yui.yahooapis.com/2.8.2r1/build/resize/assets/skins/sam/layout_sprite.png );
     background-repeat: no-repeat;
     background-position: -22px -62px;
 }
 
 /* Top Right Gripper */
 .yui-skin-sam .yui-resize .yui-resize-handle-tr {
-    background-image: url( http://yui.yahooapis.com/2.8.2/build/resize/assets/skins/sam/layout_sprite.png );
+    background-image: url( http://yui.yahooapis.com/2.8.2r1/build/resize/assets/skins/sam/layout_sprite.png );
     background-repeat: no-repeat;
     background-position: -22px -42px;
 }
 
 /* Top Left Gripper */
 .yui-skin-sam .yui-resize .yui-resize-handle-tl {
-    background-image: url( http://yui.yahooapis.com/2.8.2/build/resize/assets/skins/sam/layout_sprite.png );
+    background-image: url( http://yui.yahooapis.com/2.8.2r1/build/resize/assets/skins/sam/layout_sprite.png );
     background-repeat: no-repeat;
     background-position: -22px -82px;
 }
 
 /* Bottom Left Gripper */
 .yui-skin-sam .yui-resize .yui-resize-handle-bl {
-    background-image: url( http://yui.yahooapis.com/2.8.2/build/resize/assets/skins/sam/layout_sprite.png );
+    background-image: url( http://yui.yahooapis.com/2.8.2r1/build/resize/assets/skins/sam/layout_sprite.png );
     background-repeat: no-repeat;
     background-position: -22px -23px;
 }

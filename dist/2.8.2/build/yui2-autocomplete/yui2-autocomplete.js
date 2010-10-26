@@ -4,7 +4,7 @@ YUI.add('yui2-autocomplete', function(Y) {
 Copyright (c) 2010, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
 http://developer.yahoo.com/yui/license.html
-version: 2.8.2
+version: 2.8.2r1
 */
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -2965,6 +2965,6 @@ YAHOO.widget.AutoComplete._cloneObject = function(o) {
 
 
 
-YAHOO.register("autocomplete", YAHOO.widget.AutoComplete, {version: "2.8.2", build: "6"});
+YAHOO.register("autocomplete", YAHOO.widget.AutoComplete, {version: "2.8.2r1", build: "8"});
 
 }, '2.8.2' ,{"requires": ["yui2-yahoo", "yui2-dom", "yui2-event", "yui2-skin-sam-autocomplete", "yui2-datasource"], "optional": ["yui2-animation", "yui2-connection"]});

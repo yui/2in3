@@ -2,7 +2,7 @@
 Copyright (c) 2010, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
 http://developer.yahoo.com/yui/license.html
-version: 2.8.2
+version: 2.8.2r1
 */
 /*
 Copyright (c) 2008, Yahoo! Inc. All rights reserved.
@@ -35,7 +35,7 @@ a.ygtvspacer {
 /* first or middle sibling, no children */
 .ygtvtn {
     width:18px; height:22px; 
-    background: url(http://yui.yahooapis.com/2.8.2/build/treeview/assets/skins/sam/treeview-sprite.gif) 0 -5600px no-repeat; 
+    background: url(http://yui.yahooapis.com/2.8.2r1/build/treeview/assets/skins/sam/treeview-sprite.gif) 0 -5600px no-repeat; 
 	cursor:pointer ;
 }
 
@@ -43,34 +43,34 @@ a.ygtvspacer {
 .ygtvtm {
     width:18px; height:22px; 
     cursor:pointer ;
-    background: url(http://yui.yahooapis.com/2.8.2/build/treeview/assets/skins/sam/treeview-sprite.gif) 0 -4000px no-repeat; 
+    background: url(http://yui.yahooapis.com/2.8.2r1/build/treeview/assets/skins/sam/treeview-sprite.gif) 0 -4000px no-repeat; 
 }
 
 /* first or middle sibling, collapsable, hover */
 .ygtvtmh,.ygtvtmhh {
     width:18px; height:22px; 
     cursor:pointer ;
-    background: url(http://yui.yahooapis.com/2.8.2/build/treeview/assets/skins/sam/treeview-sprite.gif) 0 -4800px no-repeat; 
+    background: url(http://yui.yahooapis.com/2.8.2r1/build/treeview/assets/skins/sam/treeview-sprite.gif) 0 -4800px no-repeat; 
 }
 
 /* first or middle sibling, expandable */
 .ygtvtp {
     width:18px; height:22px; 
     cursor:pointer ;
-    background: url(http://yui.yahooapis.com/2.8.2/build/treeview/assets/skins/sam/treeview-sprite.gif) 0 -6400px no-repeat; 
+    background: url(http://yui.yahooapis.com/2.8.2r1/build/treeview/assets/skins/sam/treeview-sprite.gif) 0 -6400px no-repeat; 
 }
 
 /* first or middle sibling, expandable, hover */
 .ygtvtph ,.ygtvtphh {
     width:18px; height:22px; 
     cursor:pointer ;
-    background: url(http://yui.yahooapis.com/2.8.2/build/treeview/assets/skins/sam/treeview-sprite.gif) 0 -7200px no-repeat; 
+    background: url(http://yui.yahooapis.com/2.8.2r1/build/treeview/assets/skins/sam/treeview-sprite.gif) 0 -7200px no-repeat; 
 }
 
 /* last sibling, no children */
 .ygtvln {
     width:18px; height:22px; 
-    background: url(http://yui.yahooapis.com/2.8.2/build/treeview/assets/skins/sam/treeview-sprite.gif) 0 -1600px no-repeat; 
+    background: url(http://yui.yahooapis.com/2.8.2r1/build/treeview/assets/skins/sam/treeview-sprite.gif) 0 -1600px no-repeat; 
 	cursor:pointer ;
 }
 
@@ -78,41 +78,41 @@ a.ygtvspacer {
 .ygtvlm {
     width:18px; height:22px; 
     cursor:pointer ;
-    background: url(http://yui.yahooapis.com/2.8.2/build/treeview/assets/skins/sam/treeview-sprite.gif) 0 0px no-repeat; 
+    background: url(http://yui.yahooapis.com/2.8.2r1/build/treeview/assets/skins/sam/treeview-sprite.gif) 0 0px no-repeat; 
 }
 
 /* Last sibling, collapsable, hover */
 .ygtvlmh,.ygtvlmhh {
     width:18px; height:22px; 
     cursor:pointer ;
-    background: url(http://yui.yahooapis.com/2.8.2/build/treeview/assets/skins/sam/treeview-sprite.gif) 0 -800px no-repeat; 
+    background: url(http://yui.yahooapis.com/2.8.2r1/build/treeview/assets/skins/sam/treeview-sprite.gif) 0 -800px no-repeat; 
 }
 
 /* Last sibling, expandable */
 .ygtvlp { 
     width:18px; height:22px; 
     cursor:pointer ;
-    background: url(http://yui.yahooapis.com/2.8.2/build/treeview/assets/skins/sam/treeview-sprite.gif) 0 -2400px no-repeat; 
+    background: url(http://yui.yahooapis.com/2.8.2r1/build/treeview/assets/skins/sam/treeview-sprite.gif) 0 -2400px no-repeat; 
 }
 
 /* Last sibling, expandable, hover */
 .ygtvlph,.ygtvlphh { 
     width:18px; height:22px; cursor:pointer ;
-    background: url(http://yui.yahooapis.com/2.8.2/build/treeview/assets/skins/sam/treeview-sprite.gif) 0 -3200px no-repeat; 
+    background: url(http://yui.yahooapis.com/2.8.2r1/build/treeview/assets/skins/sam/treeview-sprite.gif) 0 -3200px no-repeat; 
 	cursor:pointer ;
 }
 
 /* Loading icon */
 .ygtvloading { 
     width:18px; height:22px; 
-    background: url(http://yui.yahooapis.com/2.8.2/build/treeview/assets/skins/sam/treeview-loading.gif) 0 0 no-repeat; 
+    background: url(http://yui.yahooapis.com/2.8.2r1/build/treeview/assets/skins/sam/treeview-loading.gif) 0 0 no-repeat; 
 }
 
 /* the style for the empty cells that are used for rendering the depth 
  * of the node */
 .ygtvdepthcell { 
     width:18px; height:22px; 
-    background: url(http://yui.yahooapis.com/2.8.2/build/treeview/assets/skins/sam/treeview-sprite.gif) 0 -8000px no-repeat; 
+    background: url(http://yui.yahooapis.com/2.8.2r1/build/treeview/assets/skins/sam/treeview-sprite.gif) 0 -8000px no-repeat; 
 }
 
 .ygtvblankdepthcell { width:18px; height:22px; }
@@ -151,20 +151,20 @@ a.ygtvspacer {
 
 .ygtvok {
     width:18px; height:22px; 
-    background: url(http://yui.yahooapis.com/2.8.2/build/treeview/assets/skins/sam/treeview-sprite.gif) 0 -8800px no-repeat; 
+    background: url(http://yui.yahooapis.com/2.8.2r1/build/treeview/assets/skins/sam/treeview-sprite.gif) 0 -8800px no-repeat; 
 }
 
 .ygtvok:hover {
-    background: url(http://yui.yahooapis.com/2.8.2/build/treeview/assets/skins/sam/treeview-sprite.gif) 0 -8844px no-repeat; 
+    background: url(http://yui.yahooapis.com/2.8.2r1/build/treeview/assets/skins/sam/treeview-sprite.gif) 0 -8844px no-repeat; 
 }
 	
 .ygtvcancel {
     width:18px; height:22px; 
-    background: url(http://yui.yahooapis.com/2.8.2/build/treeview/assets/skins/sam/treeview-sprite.gif) 0 -8822px no-repeat; 
+    background: url(http://yui.yahooapis.com/2.8.2r1/build/treeview/assets/skins/sam/treeview-sprite.gif) 0 -8822px no-repeat; 
 }
 
 .ygtvcancel:hover  {
-    background: url(http://yui.yahooapis.com/2.8.2/build/treeview/assets/skins/sam/treeview-sprite.gif) 0 -8866px no-repeat; 
+    background: url(http://yui.yahooapis.com/2.8.2r1/build/treeview/assets/skins/sam/treeview-sprite.gif) 0 -8866px no-repeat; 
 }
 
 .ygtv-label-editor {
@@ -229,7 +229,7 @@ a.ygtvspacer {
 
 .ygtv-checkbox .ygtv-highlight0 .ygtvcontent {
 	padding-left:1em;
-	background:url(http://yui.yahooapis.com/2.8.2/build/treeview/assets/skins/sam/check0.gif) no-repeat;
+	background:url(http://yui.yahooapis.com/2.8.2r1/build/treeview/assets/skins/sam/check0.gif) no-repeat;
 }
 
 .ygtv-checkbox .ygtv-highlight0 .ygtvfocus.ygtvcontent,
@@ -240,10 +240,10 @@ a.ygtvspacer {
 
 .ygtv-checkbox .ygtv-highlight1 .ygtvcontent {
 	padding-left:1em;
-	background:url(http://yui.yahooapis.com/2.8.2/build/treeview/assets/skins/sam/check1.gif) no-repeat;
+	background:url(http://yui.yahooapis.com/2.8.2r1/build/treeview/assets/skins/sam/check1.gif) no-repeat;
 }
 
 .ygtv-checkbox .ygtv-highlight2 .ygtvcontent{
 	padding-left:1em;
-	background:url(http://yui.yahooapis.com/2.8.2/build/treeview/assets/skins/sam/check2.gif) no-repeat;
+	background:url(http://yui.yahooapis.com/2.8.2r1/build/treeview/assets/skins/sam/check2.gif) no-repeat;
 }
