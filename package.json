@@ -1,6 +1,6 @@
 {
     "name": "yui3-2in3",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "YUI 2in3 Source",
     "author": "Dav Glass <davglass@gmail.com>",
     "bugs": { "web" : "http://yuilibrary.com/projects/yui3/" },
