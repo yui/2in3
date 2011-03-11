@@ -20,26 +20,26 @@ class Threeify(object):
         if l > 1:
             VERSION     = sys.argv[1]
         else:
-            VERSION     = '2.8.1'
+            VERSION     = '2.9.0pr1.2725'
 
         if l > 2:
             YUI3_VERSION     = sys.argv[2]
         else:
-            YUI3_VERSION     = '3.2.0'
+            YUI3_VERSION     = '3.3.0'
 
         if l > 3:
             TNT_VERSION     = sys.argv[3]
         else:
-            TNT_VERSION     = '3'
+            TNT_VERSION     = '4'
 
-        SRC_DIR         = './'
+        SRC_DIR         = '../meta/'
         SRC_FILE        = VERSION + '_expanded.json'
 
         # YUI2_DIR        = '../../yui2/build/'
-        YUI2_DIR        = 'lib/' + VERSION + '/build/'
-        LOCAL_CSS_DIR   = 'lib/localcss/' + VERSION + '/build/'
+        YUI2_DIR        = '../lib/yui/' + VERSION + '/build/'
+        LOCAL_CSS_DIR   = '../lib/yui/localcss/' + VERSION + '/build/'
 
-        TEMPLATE_DIR         = 'template'
+        TEMPLATE_DIR         = '../template'
         TEMPLATE_FILE        = 'yui3mod.js'
         TEMPLATE_FILE_DOM    = 'yui3mod_dom.js'
         TEMPLATE_FILE_EVENT  = 'yui3mod_event.js'
@@ -278,7 +278,7 @@ class Threeify(object):
                 if name.count('skin-') > 0:
                     pkg = re.search('^[^\/]*', path)
                     print "pkg: " + pkg.group(0)
-                    original_path = os.path.join(build_path, pkg.group(0))
+                    original_path = os.path.join(yui2_path, pkg.group(0))
                     asset_path = os.path.join(original_path, 'assets')
                     print "asset path: " + asset_path
                     if os.path.exists(asset_path):

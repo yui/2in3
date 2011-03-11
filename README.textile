@@ -21,7 +21,7 @@ YUI({
             // comboBase: 'http://myserver.com/combo?',
             // root: '/2in3/build/',
 
-            patterns:  { 
+            patterns:  {
                 'yui2-': {
                     configFn: function(me) {
                         if(/-skin|reset|fonts|grids|base/.test(me.name)) {
@@ -30,7 +30,7 @@ YUI({
                             me.path = me.path.replace(/\/yui2-skin/, '/assets/skins/sam/yui2-skin');
                         }
                     }
-                } 
+                }
             }
         }
     }
@@ -41,10 +41,11 @@ YUI({
 
 h2. Additional Notes
 
-* YUI 3 will try to pull the 2.8.0 version of YUI 2 by default.
+* YUI 3.3.0 will try to pull the 2.8.2 version of YUI 2 by default.
   The 'yui2' config can be passed to the instance to load one
   of the other versions.
-* The public release of 2.8.0 is called 2.8.0r4 because of deployment
-  issues at the time it was released.  Accepting the default YUI 2
-  option for 2.8.0 will in fact be pulling the same content that is
-  in the 2.8.0r4 release.
+
+* The files under src/script can be used to generate the 2in3 modules,
+  but this is lightly documented and there are some path assumptions
+  built in.
+
