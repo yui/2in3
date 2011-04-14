@@ -20,7 +20,7 @@ class Threeify(object):
         if l > 1:
             VERSION     = sys.argv[1]
         else:
-            VERSION     = '2.9.0pr1.2725'
+            VERSION     = '2.9.0'
 
         if l > 2:
             YUI3_VERSION     = sys.argv[2]
