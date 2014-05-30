@@ -1,5 +1,5 @@
-* The YUI 2in3 Project has been "deprecated":http://www.yuiblog.com/blog/2013/10/07/yui-3-13-0-released/ as of October 7, 2013. *
-* You should not use YUI 2in3 for new projects, and we recommend you migrate to YUI 3. *
+*The YUI 2in3 Project has been "deprecated":http://www.yuiblog.com/blog/2013/10/07/yui-3-13-0-released/ as of October 7, 2013.*
+*You should not use YUI 2in3 for new projects, and we recommend you migrate to YUI 3.*
 
 h1. YUI 2in3 Project
 
